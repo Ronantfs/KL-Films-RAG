@@ -1,0 +1,3195 @@
+{
+    "barbican": {
+        "Sentimental Value": {
+            "description": "A marvellous and complex family drama fromJoachim Trier, where a film-director reunites with his estranged daughter.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2025/event/sentimental-value",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "18:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "13:50"
+                    ]
+                }
+            ],
+            "runtime": "2hr 13mins"
+        },
+        "Marty Supreme": {
+            "description": "Timoth\u00e9e Chalametserves rhythm and spin inJosh Safdie's new ping-pong comedy on big business, identity and feverish ambition.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2025/event/marty-supreme",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "14:20",
+                        "20:15"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "19:10"
+                    ]
+                }
+            ],
+            "runtime": "2hrs 29mins"
+        },
+        "Peter Hujar's Day": {
+            "description": "Bringing to life a transcript between photographer Peter Hujar (Ben Wishaw) and LindaRosenkrantz this is a gentle portrayal of a queer photographer in his time.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2026/event/peter-hujars-day",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "13:45"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "12:00"
+                    ]
+                }
+            ],
+            "runtime": "1hr 16mins"
+        },
+        "Family Film Club: Wolfwalkers": {
+            "description": "From Cartoon Saloon, an uplifting and stunning animation about friendship and loyalty set in a remote town in 17th century Ireland as a father and daughter head into the woods to investigate.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2026/event/family-film-club-wolfwalkers",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "11:00"
+                    ]
+                }
+            ],
+            "runtime": "1hr 43mins"
+        },
+        "Hamnet": {
+            "description": "Paul Mescal and Jessie Buckley play William Shakespeare and Anne Hathaway in Chloe Zhao's sublime adaptation of Maggie O'Farrell's novel.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2026/event/hamnet",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "17:30",
+                        "20:30"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "16:30",
+                        "19:30"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "RBO Live: La Traviata": {
+            "description": "Richard Eyre\u2019s\u00a0beautiful production provides the perfect setting for Verdi's opera about a courtesan who sacrifices all for love.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2025/event/rbo-live-la-traviata",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "14:00"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "Parent & Baby Screening: Hamnet": {
+            "description": "Paul Mescal and Jessie Buckley play William Shakespeare and Anne Hathaway in Chloe Zhao's sublime adaptation of Maggie O'Farrell's novel.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2026/event/parent-baby-screening-hamnet",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "11:15"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "Members Screening: Hamnet": {
+            "description": "Paul Mescal and Jessie Buckley play William Shakespeare and Anne Hathaway in Chloe Zhao's sublime adaptation of Maggie O'Farrell's novel.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2026/event/members-screening-hamnet",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "11:00"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "Rental Family": {
+            "description": "Brendan Fraser is an American actor drifting through Tokyo in HIKARI's new film, searching for connection beyond the barriers of language and culture.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2026/event/rental-family",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "15:45",
+                        "20:45"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "14:00",
+                        "16:45"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "The Voice of Hind Rajab": {
+            "description": "Kaouther Ben Hania\u2019s\u00a0latest triumph transforms the last recorded words of a six-year-old girl in Gaza into a vital act of remembrance.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://www.barbican.org.uk/whats-on/2026/event/the-voice-of-hind-rajab",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 17,
+                    "showtimes": [
+                        "15:30",
+                        "18:15"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "month": 1,
+                    "year": 2026,
+                    "day": 18,
+                    "showtimes": [
+                        "18:15",
+                        "20:15"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        }
+    },
+    "bfi_southbank": {
+        "All About Eve": {
+            "description": "1950 \u2014 USA \u2014 Joseph L. Mankiewicz \u2014 138 min\n\nBette Davis sparkles in Joseph L. Mankiewicz\u2019s glittering drama, delivering one of the performances that defined her career.\n\nBroadway star Margo Channing gets more than she bargained for when she welcomes an adoring fan into her life: the wide-eyed Eve Harrington. With costumes by Oscar-winning designer Edith Head and a script as sharp as a stiletto, All About Eve finds Davis resplendent in glamour and jewels, alongside a caustic wit that drives this backstage drama.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=all-about-eve-2026&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "20:20"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "All About Eve",
+                "directors": [
+                    "Joseph L. Mankiewicz"
+                ],
+                "cast": [
+                    "Bette Davis",
+                    "Anne Baxter",
+                    "George Sanders"
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 1950,
+                "runtime_mins": 138,
+                "screening_medium": "Digital",
+                "age_rating": null,
+                "db_id": 705
+            }
+        },
+        "Ballet": {
+            "description": "1995 \u2014 USA \u2014 Frederick Wiseman \u2014 170 min\n\nFrederick Wiseman documents the pursuit of perfection at the American Ballet Theatre.\n\nWiseman\u2019s appreciation of dance is self-evident in the first of two films to focus on ballet. While this profile of the American Ballet Theatre includes its institutional processes, what stays in the mind are the extended sequences of rehearsals and rigorous preparation (for productions such as Sleeping Beauty and Romeo and Juliet) in pursuit of the perfect performance. Also available on BFI Player",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=ballet&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "17:40"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Ballet",
+                "directors": [
+                    "Frederick Wiseman"
+                ],
+                "cast": [],
+                "countries": [
+                    "USA"
+                ],
+                "year": 1995,
+                "runtime_mins": 170,
+                "screening_medium": "Digital",
+                "age_rating": null,
+                "db_id": 290168
+            }
+        },
+        "Eraserhead": {
+            "description": "1977 \u2014 USA \u2014 David Lynch \u2014 89 min \u2014 Cert 15\n\nParenthood is a real horror in David Lynch\u2019s striking, utterly original and deeply unsettling feature debut.\n\nA young man discovers his girlfriend is pregnant. The responsibilities and pressures of fatherhood soon unfurl around him in a spectacularly surreal fashion. A master of challenging content and form, Lynch\u2019s first feature remained arguably his most raw and wild. Shot in striking black and white, featuring unique, industrial-inspired production design and an ambient soundtrack, Eraserhead is unfiltered Lynch \u2013 utterly unique and unsettling. Kimberley Sheehan See an IMAX screening of Eraserhead .",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=eraserhead-2026&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "21:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Eraserhead",
+                "directors": [
+                    "David Lynch"
+                ],
+                "cast": [
+                    "Jack Nance",
+                    "Charlotte Stewart",
+                    "Allen Joseph"
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 1977,
+                "runtime_mins": 89,
+                "screening_medium": null,
+                "age_rating": 15,
+                "db_id": 985
+            }
+        },
+        "Ex Libris: The New York Public Library": {
+            "description": "2017 \u2014 USA \u2014 Frederick Wiseman \u2014 197 min\n\nFrederick Wiseman\u2019s film is a beautifully constructed and deeply engaging portrait of the importance of access to knowledge.\n\nThe New York Public library, with 92 citywide branches, exemplifies a deeply rooted belief in the ideal of knowledge for all. Wiseman reveals and revels in the diversity and complexity of the institution, its employees and visitors, from unseen archivists and educators to devoted readers and high-profile guests. Beautifully constructed and thoroughly engaging, Ex Libris is testament to the joy of learning. Also available on BFI Player",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=ex-libris&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:40"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Ex Libris: The New York Public Library",
+                "directors": [
+                    "Frederick Wiseman"
+                ],
+                "cast": [],
+                "countries": [
+                    "USA"
+                ],
+                "year": 2017,
+                "runtime_mins": 197,
+                "screening_medium": "Digital",
+                "age_rating": null,
+                "db_id": 446173
+            }
+        },
+        "Hamnet": {
+            "description": "2025 \u2014 UK \u2014 Chlo\u00e9 Zhao \u2014 126 min\n\nChlo\u00e9 Zhao\u2019s soaring adaptation of Maggie O\u2019Farrell\u2019s beloved novel reimagines a pivotal moment in the lives of William Shakespeare\u2019s family.\n\nIn this striking adaptation of Maggie O\u2019Farrell\u2019s acclaimed novel, grief lingers in shadows and anchors itself in life, like the sprawling roots of a deep, dark forest. Free-spirited Agnes is ostracised for being the rumoured daughter of a forest witch. She prefers to spend her days embraced by nature\u2019s warmth rather than the chilly atmosphere of her family. But then William, a young teacher and aspiring writer, brings a love into her life like she\u2019s never felt before. Together, they start a family and navigate the growing success of his theatrical career. However, a tragic loss forces the couple to contend with the world-shattering effects of grief. Oscar-winning writer-director Chlo\u00e9 Zhao delivers a drama that is sublime in all measures, with \u0141ukasz \u017bal\u2019s lush cinematography enhancing the raw performances of Buckley and Mescal. Lilia Pavin-Franks, Cinema Programme Coordinator See a Relaxed Screening of Hamnet with Descriptive Subtitles (standard ticket price) on Tuesday 13 January 17:50 NFT4. Audio Description available at all screenings. The screenings on Saturday 10 January 14:30 NFT1; Sunday 11 January 12:15 NFT3; Monday 12 January 14:30 NFT2; Monday 12 January 20:35 NFT2; Wednesday 14 January 17:50 NFT3; Thursday 15 January 14:30 NFT4 will be presented with Descriptive subtitles. Closed Captions available via WatchWord smart glasses \u2013 please see our Closed Captions page for a list of screenings.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=hamnet&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:20",
+                        "17:35"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:30",
+                        "18:10"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Hamnet",
+                "directors": [
+                    "Chlo\u00e9 Zhao"
+                ],
+                "cast": [
+                    "Jessie Buckley",
+                    "Paul Mescal",
+                    "Emily Watson",
+                    "Joe Alwyn"
+                ],
+                "countries": [
+                    "UK"
+                ],
+                "year": 2025,
+                "runtime_mins": 126,
+                "screening_medium": null,
+                "age_rating": null,
+                "db_id": 858024
+            }
+        },
+        "High Treason": {
+            "description": "1929 \u2014 UK \u2014 Maurice Elvey \u2014 95 min\n\nThis early British sci-fi explores the possibilities of futuristic television technology.\n\nA British sci-fi thriller set in 1950s London, involving a plot by evil arms dealers to blow up the Channel Tunnel and fly planes into buildings. Based on a stage-play by Noel Pemberton-Billing MP, the film features imagined variants of television used for broadcasting and televisual telephony. A very British vision of the future, it was unquestionably influenced by Fritz Lang\u2019s Metropolis. See Silent Cinema: Celebrating 100 Years of Laurel and Hardy with Neil Brand on Sunday 11 January .",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=high-treason&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "15:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "High Treason",
+                "directors": [
+                    "Maurice Elvey"
+                ],
+                "cast": [
+                    "Jameson Thomas",
+                    "Benita Hume"
+                ],
+                "countries": [
+                    "UK"
+                ],
+                "year": 1929,
+                "runtime_mins": 95,
+                "screening_medium": null,
+                "age_rating": null,
+                "db_id": 127822
+            }
+        },
+        "Inland Empire": {
+            "description": "2006 \u2014 USA \u2014 David Lynch \u2014 180 min \u2014 Cert 15\n\nLynch\u2019s experimental masterpiece blurs the lines between reality and the creative process.\n\nA film about \u2018a woman in trouble\u2019, Inland Empire follows an actress cast in an impossible film, who finds it difficult to navigate the blurred lines between reality and artifice. Her descent is perfectly portrayed by Laura Dern in another great Lynch collaboration. Shot without a script and on digital video \u2013 \u2018giving more room to dream\u2019 \u2013 Lynch\u2019s final feature is a gripping experimental masterpiece. The screening on Saturday 10 January will be presented with Descriptive subtitles. Contains injury detail and flashing images which may affect viewers who are susceptible to photosensitive epilepsy. The screening of Inland Empire on Thursday 8 January will be introduced by Sam Wigley, BFI Digital Features Editor at Sight and Sound.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=inland-empire&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "17:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Inland Empire",
+                "directors": [
+                    "David Lynch"
+                ],
+                "cast": [
+                    "Laura Dern",
+                    "Jeremy Irons",
+                    "Justin Theroux"
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 2006,
+                "runtime_mins": 180,
+                "screening_medium": null,
+                "age_rating": 15,
+                "db_id": 1730
+            }
+        },
+        "Journey to Italy": {
+            "description": "1954 \u2014 Italy-France \u2014 Roberto Rossellini \u2014 85 min\n\nRoberto Rossellini\u2019s landmark exploration of marital crisis is a key precursor to the French New Wave and a work of cinematic poetry.\n\nA wealthy couple travels to Naples and, alone with each other for the first time in years, realise how fractured their marriage has become \u2013 the weight of past love and ancient cultures weighting heavily on their fragile union. \u2018If there is a modern cinema, this is it\u2019 wrote Jacques Rivette about this extraordinary film, which sees Rossellini moving beyond neorealism and towards a new kind of cinema. Diana Cipriano Also available on BFI Player",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=journey-to-italy-2026&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "15:10"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Journey to Italy",
+                "directors": [
+                    "Roberto Rossellini"
+                ],
+                "cast": [
+                    "Ingrid Bergman",
+                    "George Sanders",
+                    "Maria Mauban",
+                    "Anna Proclemer"
+                ],
+                "countries": [
+                    "Italy-France"
+                ],
+                "year": 1954,
+                "runtime_mins": 85,
+                "screening_medium": "Digital",
+                "age_rating": null,
+                "db_id": 2748
+            }
+        },
+        "La Danse: Le Ballet de l\u2019Opera de Paris + intro by dance writer and critic Judith Mackrell": {
+            "description": "2009 \u2014 USA \u2014 Frederick Wiseman \u2014 158 min\n\nOne of the world\u2019s greatest documentary makers films one of the world\u2019s greatest ballet companies.\n\nThis engrossing documentary is one of the best dance films ever made, offering intimate access to one of the world\u2019s great ballet companies, its stars and retinue during preparations for seven productions. \u2018It\u2019s about rhythm,\u2019 a ballerina is advised during rehearsal. The same could be said of this engrossing film as it wends its way through the Palais Garnier, from basement to rooftop beehive. See other screenings of La Danse: Le Ballet de l\u2019Opera de Paris .",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=la-danse-intro&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "14:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "La Danse: Le Ballet de l\u2019Opera de Paris",
+                "directors": [
+                    "Frederick Wiseman"
+                ],
+                "cast": [],
+                "countries": [
+                    "USA"
+                ],
+                "year": 2009,
+                "runtime_mins": 158,
+                "screening_medium": "Digital",
+                "age_rating": null,
+                "db_id": 67381
+            }
+        },
+        "Le Bonheur": {
+            "description": "1964 \u2014 France \u2014 Agn\u00e8s Varda \u2014 106 min \u2014 Cert 15\n\nRadical, provocative and one of Agn\u00e8s Varda\u2019s most piercing works, Le Bonheur embraces a painterly palette to examine a marriage during the sexual revolution.\n\nA pioneer member of the Left Bank group of the French New Wave, Agn\u00e8s Varda was an acute observer of human behaviour, perfectly showcased in this deconstruction of the nuclear family. Th\u00e9r\u00e8se and Fran\u00e7ois seem to live in marital bliss, but when he begins an affair with another woman, supposedly enhancing their mutual enjoyment, the outcome will be startling. Sensual and devastating, it\u2019s a brilliant takedown of male entitlement. Diana Cipriano The screening of Le Bonheur on Wednesday 7 January will be introduced by film critic Christina Newland.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=le-bonheur&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Le Bonheur",
+                "directors": [
+                    "Agn\u00e8s Varda"
+                ],
+                "cast": [
+                    "Jean-Claude Drouot",
+                    "Claire Drouot",
+                    "Marie-France Boyer"
+                ],
+                "countries": [
+                    "France"
+                ],
+                "year": 1964,
+                "runtime_mins": 106,
+                "screening_medium": "Digital",
+                "age_rating": 15,
+                "db_id": 53023
+            }
+        },
+        "Le Quai des brumes": {
+            "description": "1938 \u2014 France \u2014 Marcel Carn\u00e9 \u2014 92 min\n\nJean Gabin leads this lyrical archetype of French poetic realism, composed with a black and grey palette, a haunting score, and quietly classy costumes designed by Chanel.\n\nA deserter from the French colonial army, trying to reach an impossible elsewhere, arrives in the port city of Le Havre, which is concealed by an ever-present fog. While hiding, he falls for a melancholy girl trapped in a world of petty gangsters and disquieting guardians. Written by Jacques Pr\u00e9vert \u2013 his first collaboration with Carn\u00e9 \u2013 Le Quai des brumes is a definitive example of poetic realism, and was banned as immoral and demoralising as France entered the war. Contains scenes of graphic violence and themes of domestic violence or abuse. Contains themes of suicide. Restored by StudioCanal and the Cin\u00e9math\u00e8que fran\u00e7aise with the support of the Centre national du Cin\u00e9ma et de l\u2019image anim\u00e9e \u2013 CNC and CHANEL. The sound and picture restoration work was carried out by the laboratory Transperfect and supervised by StudioCanal\u2019s Sophie Boyer and Jean-Pierre Boiget.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=le-quai-des-brumes&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:40"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Le Quai des brumes",
+                "directors": [
+                    "Marcel Carn\u00e9"
+                ],
+                "cast": [
+                    "Jean Gabin",
+                    "Mich\u00e8le Morgan",
+                    "Michel Simon",
+                    "Pierre Brasseur"
+                ],
+                "countries": [
+                    "France"
+                ],
+                "year": 1938,
+                "runtime_mins": 92,
+                "screening_medium": "PG",
+                "age_rating": null,
+                "db_id": 46326
+            }
+        },
+        "The Leopard": {
+            "description": "1962 \u2014 Italy \u2014 Luchino Visconti \u2014 188 min\n\nLuchino Visconti\u2019s influential costume drama charts the decline of Italy\u2019s aristocracy through the eyes of an aging prince.\n\nBurt Lancaster stars as an aging Sicilian prince who witnesses his culture and fortunes wane as a new social order and revolutionary generation take power. Oscar-winning costume designer Piero Tosi was fundamental in helping Visconti capture the tumult and opulence of the Italian aristocracy\u2019s final years in power.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=leopard-2026&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "17:20"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "The Leopard",
+                "directors": [
+                    "Luchino Visconti"
+                ],
+                "cast": [
+                    "Claudia Cardinale",
+                    "Burt Lancaster",
+                    "Alain Delon"
+                ],
+                "countries": [
+                    "Italy"
+                ],
+                "year": 1962,
+                "runtime_mins": 188,
+                "screening_medium": "PG",
+                "age_rating": null,
+                "db_id": 1040
+            }
+        },
+        "Mulholland Drive": {
+            "description": "2001 \u2014 USA \u2014 David Lynch \u2014 147 min \u2014 Cert 15\n\nDavid Lynch\u2019s portrait of the dark underbelly of Hollywood, which now holds a place in the top ten of Sight and Sound\u2019s critics\u2019 poll of the greatest films ever made, is one of his finest films.\n\nDavid Lynch\u2019s film is part-psychological thriller, part-neo-noir homage to LA. An aspiring actress, newly arrived in the city, befriends an amnesiac who survived a car accident and has a significant amount of money on her. But things aren\u2019t quite what they seem. This is essential Lynch, a film as beautiful as it is baffling. A recent entry into the top ten of Sight and Sound\u2019s greatest films poll, it\u2019s an extraordinary achievement. Joint ticket available with The Cinematic Visions of David Lynch on Wednesday 7 January 18:00 NFT1 (available with the Wednesday 7 January 20:10 NFT1 screening of Mulholland Drive only). Tickets \u00a317, concessions \u00a314 (Members pay \u00a32.50 less). Book in person at the box office or by phone on 020 7928 3232. See an IMAX screening of Mulholland Drive . Also available on BFI Player",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=mulholland-drive-2026&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "17:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Mulholland Drive",
+                "directors": [
+                    "David Lynch"
+                ],
+                "cast": [
+                    "Naomi Watts",
+                    "Laura Harring",
+                    "Justin Theroux"
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 2001,
+                "runtime_mins": 147,
+                "screening_medium": null,
+                "age_rating": 15,
+                "db_id": 1018
+            }
+        },
+        "Ran": {
+            "description": "1985 \u2014 Japan \u2014 Akira Kurosawa \u2014 162 min \u2014 Cert 15\n\nAkira Kurosawa\u2019s late masterpiece is a resplendent adaptation of Shakespeare\u2019s King Lear.\n\nShakespeare\u2019s\u202fKing Lear\u202fis reimagined as a 16th-century Japanese epic. It\u2019s a profound examination of the folly of war and a piercing account of the crumbling of one family under the weight of betrayal, greed and an insatiable desire for power. The Oscar-winning costumes by Emi Wada help to underpin the film\u2019s majestic scope. Also available on BFI Player",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=ran-2026&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "14:20"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Ran",
+                "directors": [
+                    "Akira Kurosawa"
+                ],
+                "cast": [
+                    "Tatsuya Nakadai",
+                    "Akira Terao",
+                    "Jinpachi Nezu"
+                ],
+                "countries": [
+                    "Japan"
+                ],
+                "year": 1985,
+                "runtime_mins": 162,
+                "screening_medium": null,
+                "age_rating": 15,
+                "db_id": 111
+            }
+        },
+        "The Straight Story": {
+            "description": "1999 \u2014 USA \u2014 David Lynch \u2014 112 min\n\nAn ageing farmer decides to visit his ailing and estranged brother in David Lynch\u2019s most elegiac film.\n\nWhen an elderly war veteran hears that his estranged brother has suffered a stroke, he sets out to make amends with him before he dies. Health conditions prevent him from holding a driver\u2019s license, so he takes the 240-mile journey by lawnmower. The Straight Story is often cited as the least \u2018Lynchian\u2019 of Lynch\u2019s filmography, yet this beautiful road movie serves as a key to understanding his work. His unfiltered sentimentality and ardour for human connection and emotions, is what sets him apart from his imitators. Kimberley Sheehan",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=straight-story&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "20:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "The Straight Story",
+                "directors": [
+                    "David Lynch"
+                ],
+                "cast": [
+                    "Richard Farnsworth",
+                    "Sissy Spacek",
+                    "Harry Dean Stanton"
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 1999,
+                "runtime_mins": 112,
+                "screening_medium": "U",
+                "age_rating": null,
+                "db_id": 404
+            }
+        },
+        "The Voice of Hind Rajab": {
+            "description": "2025 \u2014 Tunisia-France \u2014 Kaouther Ben Hania \u2014 89 min\n\nThe director of Four Daughters presents the events surrounding the death of a young Palestinian girl.\n\nOne January afternoon in 2024, the Palestine Red Crescent Society receives a call. On the other end of the phone is a six-year-old girl, surrounded by dead bodies. Audible gunfire punctuates her pleas for help, as she hides from encroaching Israeli tanks. From their offices 50 miles away, volunteers fight against red-tape and internal tensions to deliver a rescue ambulance, distress mounting as time marches on. Blending documentary and fiction in service of undeniable truth, audio recordings of Hind\u2019s final hours are woven seamlessly into this recreation of the mission to save her. Oscar-nominated filmmaker Kaouther Ben Hania balances hope and helplessness on a tightrope, while honouring both the victims of violence and those who fight to protect them. This is essential filmmaking that cuts through the noise, capturing the human devastation at the heart of war. Ruby McGuigan, Programme Development Manager Contains distressing scenes.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=voice-of-hind-rajab&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:40",
+                        "18:20",
+                        "20:50"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:45",
+                        "18:40"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "The Voice of Hind Rajab",
+                "directors": [
+                    "Kaouther Ben Hania"
+                ],
+                "cast": [
+                    "Saja Kilani",
+                    "Motaz Malhees"
+                ],
+                "countries": [
+                    "Tunisia-France"
+                ],
+                "year": 2025,
+                "runtime_mins": 89,
+                "screening_medium": "TBC",
+                "age_rating": null,
+                "db_id": 1480382
+            }
+        },
+        "The Water Babies": {
+            "description": "1978 \u2014 UK \u2014 Lionel Jeffries \u2014 102 min\n\nA combination of musical and fun with Tom who travels underwater to rescue the lost water babies.\n\nYoung chimney sweep Tom, who works for an unkind criminal, is wrongly accused of theft at the large stately home where they work. After he falls into a pond, Tom discovers an underwater world where the water babies have been captured by sharks and teams up with a group of river creatures to rescue them. This part-animated, part-live-action musical tale, from the director of The Railway Children, is a joyous, star-studded affair.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=water-babies&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "The Water Babies",
+                "directors": [
+                    "Lionel Jeffries"
+                ],
+                "cast": [
+                    "James Mason",
+                    "Billie Whitelaw",
+                    "Bernard Cribbins"
+                ],
+                "countries": [
+                    "UK"
+                ],
+                "year": 1978,
+                "runtime_mins": 102,
+                "screening_medium": "Digital",
+                "age_rating": null,
+                "db_id": 34467
+            }
+        },
+        "Wild at Heart": {
+            "description": "1990 \u2014 USA \u2014 David Lynch \u2014 125 min \u2014 Cert 18\n\nDavid Lynch\u2019s surreal ride channels a multitude of cinematic references as it follows a lovestruck couple on the run.\n\nNicolas Cage and Laura Dern give career-defining performances as Sailor and Lula in Lynch\u2019s violent, sexy and surreal road movie. They\u2019re lovers on the run from a hitman hired by Lula\u2019s \u2018wicked witch\u2019 mother. With liberal references to The Wizard of Oz and Elvis, this 1990 Cannes Palme d\u2019Or winner is utterly original and, yes, as wild as Sailor\u2019s beloved snakeskin jacket. Contains scenes of strong violence and sexual threat. See an IMAX screening of Wild at Heart . See a Relaxed screening of Wild at Heart .",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=wild-at-heart&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "11:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Wild at Heart",
+                "directors": [
+                    "David Lynch"
+                ],
+                "cast": [
+                    "Nicolas Cage",
+                    "Laura Dern",
+                    "Willem Dafoe"
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 1990,
+                "runtime_mins": 125,
+                "screening_medium": "Digital",
+                "age_rating": 18
+            }
+        },
+        "Withnail & I + Q&A with Richard E Grant, hosted by Will Arnett": {
+            "description": "1987 \u2014 UK \u2014 Bruce Robinson \u2014 108 min \u2014 Cert 15\n\nRichard E Grant and Will Arnett join us for a special screening of this beloved British cult classic.\n\nTwo out of work actors in the late 60s decide to take a break from their decrepit Camden flat and find themselves on a disastrous trip to the countryside. Stacked with hilarious, sharp dialogue and profound observations about friendship and artistic struggle, this dark comedy has had a lasting influence on generations of filmmakers and comedy performers. Celebrating the arrival of brand-new BFI 35mm print of the film, Richard E Grant (a truly magnetic Withnail) joins us for a special screening and Q&A hosted by Will Arnett. New 35mm print made with funding from the National Lottery and the additional support of donors to our Keep Film on Film campaign. Tickets \u00a317, concs \u00a314 (Members pay \u00a32.50 less) Tickets on sale Fri 9 Jan from 11:00 to BFI Patrons, 12:00 to BFI Members and on general sale from 16:00.",
+            "screen": null,
+            "screeningType": "",
+            "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=withnail-i-grant-arnett&BOparam::WScontent::loadArticle::context_id=",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "title": "Withnail & I + Q&A with Richard E Grant, hosted by Will Arnett",
+                "directors": [
+                    "Bruce Robinson"
+                ],
+                "cast": [
+                    "Richard E. Grant",
+                    "Paul McGann",
+                    "Richard Griffiths"
+                ],
+                "countries": [
+                    "UK"
+                ],
+                "year": 1987,
+                "runtime_mins": 108,
+                "screening_medium": null,
+                "age_rating": 15
+            }
+        }
+    },
+    "castle": {
+        "Marty Supreme": {
+            "description": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
+            "screen": "castle",
+            "screeningType": "standard",
+            "url": "https://thecastlecinema.com/programme/101728/marty-supreme/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "14:30",
+                        "17:40",
+                        "21:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "13:40",
+                        "16:15",
+                        "19:20"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "db_id": 1317288
+            }
+        },
+        "Hamnet": {
+            "description": "From Academy Award-winning writer-director Chloe Zhao, Hamnet tells the powerful love story that inspired the creation of Shakespeare's timeless masterpiece, Hamlet.",
+            "screen": "castle",
+            "screeningType": "standard",
+            "url": "https://thecastlecinema.com/programme/101729/hamnet/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "11:45",
+                        "13:00",
+                        "15:40",
+                        "18:20",
+                        "20:45"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "11:00",
+                        "13:30",
+                        "16:45",
+                        "19:30"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        }
+    },
+    "prince_charles": {
+        "Interstellar": {
+            "description": "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/1417673/interstellar",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "16:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2014,
+                "db_id": 157336
+            }
+        },
+        "In The Mood For Love": {
+            "description": "In 1962 Hong Kong, neighbors Su Li-zhen (Mrs. Chan) and Chow Mo-wan (Mr. Chow) discover their spouses are having an affair. As they spend time together, they develop feelings for each other, but their relationship remains chaste and unspoken, reflecting societal constraints and their own moral compass.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/19529988/in-the-mood-for-love",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2000,
+                "db_id": 843
+            }
+        },
+        "Harakiri": {
+            "description": "Down-on-his-luck veteran Tsugumo Hanshir\u014d enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku\u2014and a worthy second to deliver the coup de gr\u00e2ce in his suicide ritual. The senior counselor for the Iyi clan questions the ronin's resolve and integrity, suspecting Hanshir\u014d of seeking charity rather than an honorable end. What follows is a pair of interlocking stories which lay bare the difference between honor and respect, and promises to examine the legendary foundations of the Samurai code.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/31616887/harakiri",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "14:40"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1962,
+                "db_id": 14537
+            }
+        },
+        "Memories of Murder [Salinui chueok]": {
+            "description": "In 1986, Park (Song Kang-ho) and Cho (Kim Roi-ha) are two simple-minded detectives assigned to a double murder investigation in a South Korean province. But when the murderer strikes several more times with the same pattern, the detectives realize that they are chasing the country's first documented serial killer. Relying on only their basic skills and tools, Park and Jo attempt to piece together the clues and solve the case in this thriller based on true events.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/1578567/memories-of-murder-salinui-chueok",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "20:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2003,
+                "db_id": 11423
+            }
+        },
+        "Goodbye, Dragon Inn": {
+            "description": "On a dark, wet night a historic and regal Chinese cinema sees its final film. Together with a small handful of souls they bid \"Goodbye, Dragon Inn\".",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/19056261/goodbye-dragon-inn",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2003,
+                "db_id": 56616
+            }
+        },
+        "The Matrix": {
+            "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/2654814/the-matrix",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "17:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1999,
+                "db_id": 603
+            }
+        },
+        "2001 : A Space Odyssey": {
+            "description": "Warner Bros. Pictures present an \u2018unrestored\u2019 70mm print of the director\u2019s groundbreaking science fiction epic! \"For the first time since the original release, this 70mm print was struck from new printing elements made from the original camera negative. This is a true photochemical film recreation. There are no digital tricks, remastered effects, or revisionist edits. This is the unrestored film - that recreates the cinematic event that audiences experienced fifty years ago.\" - Christopher Nolan Stanley Kubrick\u2019s dazzling, Academy Award\u00ae-winning* achievement is a compelling drama of man vs. machine, a stunning meld of music and motion. Kubrick (who co-wrote the screenplay with Arthur C. Clarke) first visits our prehistoric ape-ancestry past, then leaps millennia (via one of the most mind-blowing jump cuts ever) into colonized space, and ultimately whisks astronaut Bowman (Keir Dullea) into uncharted space, perhaps even into immortality. \u201cOpen the pod bay doors, HAL.\u201d Let an awesome journey unlike any other begin. Please Note: Our 70mm screenings of '2001: A Space Odyssey' follow a partictular presentation procedure; - Overture (3mins / Music) - 1st half of feature (86mins) - * Intermission* (usually 10 for quieter shows, can be 20mins for busier ones) - Entracte (2mins / Music) - 2nd half of feature (54mins) - Exit (5mins / Music) - Total time; approx 170mins (though this is dependent on Intermission length)",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/7260457/2001-a-space-odyssey",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "19:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1968,
+                "db_id": 62
+            }
+        },
+        "The Fall": {
+            "description": "A bedridden patient in a hospital on the outskirts of 1920s Los Angeles befriends a fellow patient, and shares a fantastic tale of heroes, myths, and villains on a desert island with the little girl.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/14686513/the-fall",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2006,
+                "db_id": 14784
+            }
+        },
+        "Taipei Story": {
+            "description": "Edward Yang's second feature is a mournful anatomy of a city caught between the past and the present. Made in collaboration with Yang's fellow New Taiwan Cinema master Hou Hsiao-hsien, TAIPEI STORY chronicles the growing estrangement between a washed-up baseball player (Hou, in a rare on-screen performance) working in his family's textile business and his girlfriend (Tsai Chin), who clings to the upward mobility of her career in property development. As the couple's dreams of marriage and emigration begin to unravel, Yang's gaze illuminates the precariousness of domestic life and the desperation of Taiwan's globalised modernity.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/31616761/taipei-story",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1985,
+                "db_id": 106380
+            }
+        },
+        "Vampire Hunter D: Bloodlust": {
+            "description": "Baron Meier Link is of a dying race, but the vampire doesn't intend to remain lonely much longer. Abducting women in the night is common for his kind, so what's one more? But Charlotte's father has plenty of money, and there's no price he won't pay to get his daughter back. That's why he hires D.\n\nD is a Dunpeal, a breed rarer than that of the vampires - after all, he's half of one. When it comes to hunting those with fangs like his own, he's the best in the business. But that doesn't mean he's the only game in town. The Markus Brothers are on the vampire's trail as well, and they're not about to lose. It's a race, not only between the rival Hunters, but for the vampire and his bride-to-be. But it might be more than just a job to D. Is Charlotte really a captive? Or will another Dunpeal be born to this world?",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/29802021/vampire-hunter-d-bloodlust",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "17:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2000,
+                "db_id": 15999
+            }
+        },
+        "Heat": {
+            "description": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist. Original Cut from a 35mm print.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/3182341/heat",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "20:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1995,
+                "db_id": 949
+            }
+        },
+        "Spider-Man: Into the Spider-Verse": {
+            "description": "Bitten by a radioactive spider in the subway, Brooklyn teenager Miles Morales suddenly develops mysterious powers that transform him into the one and only Spider-Man. When he meets Peter Parker, he soon realizes that there are many others who share his special, high-flying talents. Miles must now use his newfound skills to battle the evil Kingpin, a hulking madman who can open portals to other universes and pull different versions of Spider-Man into our world.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/10713013/spiderman-into-the-spiderverse",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "11:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2018,
+                "db_id": 324857
+            }
+        },
+        "Beau Travail": {
+            "description": "Foreign Legion officer Galoup recalls his once glorious life, training troops in the Gulf of Djibouti. His existence there was happy, strict and regimented, until the arrival of a promising young recruit, Sentain, plants the seeds of jealousy in Galoup's mind.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/25071685/beau-travail",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1999,
+                "db_id": 14626
+            }
+        },
+        "The Handmaiden [Theatrical Cut]": {
+            "description": "In 1930s Korea, a swindler and a young woman pose as a Japanese count and a handmaiden to seduce a Japanese heiress and steal her fortune.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/31616781/the-handmaiden-theatrical-cut",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "db_id": 290098
+            }
+        },
+        "North By Northwest": {
+            "description": "This classic suspense film finds New York City ad executive Roger O. Thornhill (Cary Grant) pursued by ruthless spy Phillip Vandamm (James Mason) after Thornhill is mistaken for a government agent. Hunted relentlessly by Vandamm's associates, the harried Thornhill ends up on a cross-country journey, meeting the beautiful and mysterious Eve Kendall (Eva Marie Saint) along the way. Soon Vandamm's henchmen close in on Thornhill, resulting in a number of iconic action sequences.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/11736406/north-by-northwest",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "17:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1959,
+                "db_id": 213
+            }
+        },
+        "After Hours": {
+            "description": "In a Manhattan cafe, word processor Paul Hackett (Griffin Dunne) meets and talks literature with Marcy (Rosanna Arquette). Later that night, Paul takes a cab to Marcy's downtown apartment. His $20 bill flying out the window during the ride portends the unexpected night he has. He cannot pay for the ride and finds himself in a series of awkward, surreal and life-threatening situations with a colorful cast of characters. He spends the rest of the night trying to return uptown.",
+            "screen": "screen_1",
+            "screeningType": "standard",
+            "url": "https://princecharlescinema.com/film/9711550/after-hours",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "20:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1985,
+                "db_id": 10843
+            }
+        }
+    },
+    "nickel": {
+        "SANTA SANGRE": {
+            "description": "Freakishly scarred by a traumatic childhood, young Fenix grows up under the oppressive influence of his circus-performer parents. When tragedy strikes, he becomes the puppet of his mother\u2019s murderous obsession, carrying out brutal acts while trapped between guilt, devotion, and desire. The lines between reality, hallucination, and ritual blur in a kaleidoscopic descent into violence and surreal spectacle.\n\nA hypnotic fusion of horror, surrealism, and carnival grotesque, Santa Sangre explores obsession, trauma, and the intoxicating power of performance in a world where blood and devotion are inseparable.",
+            "screen": "Nickel",
+            "screeningType": "digital",
+            "url": "https://book.thenickel.co.uk/screening/53",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "1989",
+                "countries": "Mexico/Italy",
+                "directors": [
+                    "Alejandro Jodorowsky"
+                ],
+                "screening_medium": "Digital",
+                "db_id": 19236
+            }
+        },
+        "TRASH HUMPERS": {
+            "description": "Follow a small group of elderly \u201cPeeping Toms\u201d through the shadows and margins of an unfamiliar world. Crudely documented by the participants themselves, we follow the debased and shocking actions of a group of true sociopaths the likes of which have never been seen before. Inhabiting a world of broken dreams and beyond the limits of morality, they crash against a torn and frayed America.",
+            "screen": "Nickel",
+            "screeningType": "digital",
+            "url": "https://book.thenickel.co.uk/screening/54",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "18:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "2009",
+                "countries": "USA",
+                "directors": [
+                    "Harmony Korine"
+                ],
+                "screening_medium": "Digital",
+                "db_id": 46788
+            }
+        },
+        "MEET THE FEEBLES": {
+            "description": "Heidi, star of the \u201cMeet The Feebles Variety Hour\u201d discovers her lover Bletch the Walrus is cheating on her. And with all the world waiting for the show, the assorted co-stars must contend with drug addiction, extortion, robbery, disease, drug dealing, and murder.",
+            "screen": "Nickel",
+            "screeningType": "digital",
+            "url": "https://book.thenickel.co.uk/screening/55",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "20:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "1989",
+                "countries": "New Zealand",
+                "directors": [
+                    "Peter Jackson"
+                ],
+                "screening_medium": "Digital",
+                "db_id": 8216
+            }
+        },
+        "DELETED SCENES PRESENTS: BARBARELLA": {
+            "description": "SEX PILLS! SEX MACHINES! HAIRY GUYS! HAIRLESS GUYS! LOVE!\n\nIn the distant future, sex has fallen out of fashion. Space adventurer Barbarella is tasked by the Earth\u2019s president to travel to another planetary system to retrieve the positronic ray, a powerful weapon of potential mass destruction. Barbarella\u2019s on a mission and nothing will get in her way, except perhaps her sex drive and everyone\u2019s sexual ambition. She\u2019ll help the blind angel Pygar rediscover the will to fly (by having sex with him), and defeat torture device The Excessive Machine (destroying it by outlasting its death-inducing orgasm).\n\nJane Fonda\u2019s fourth and final collaboration with her then-husband Roger Vadim created one of film\u2019s most memorable characters and sex symbols, placing Fonda at the epicentre of 60s culture and turning her into a true icon and poster child of the decade\u2019s sexual freedom.\n\nThis screening is part of I LOVE YOU JANE FONDA!, the first double bill night by Deleted Scenes.",
+            "screen": "Nickel",
+            "screeningType": "digital",
+            "url": "https://book.thenickel.co.uk/screening/56",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "16:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "1968",
+                "countries": "France/Italy",
+                "directors": [
+                    "Roger Vadim"
+                ],
+                "screening_medium": "Digital",
+                "db_id": 8069
+            }
+        },
+        "DELETED SCENES PRESENTS: WALK ON THE WILD SIDE": {
+            "description": "Dove Linkhorn (Laurence Harvey) meets teen rebel Kitty Twist (Jane Fonda) hitchhiking and train-hopping from Texas to Louisiana in search of his long-lost love Hallie Gerard (Capucine). When they reach New Orleans, he finds Hallie working at a brothel. Dove wants to whisk her away, but he\u2019ll have to go through madam Jo Courtney (Barbara Stanwyck) first, who\u2019s obsessed with Hallie and also lures Kitty in, enlisting her as the brothel\u2019s youngest girl with far-reaching consequences. \n\nJane Fonda is a bombshell in her second role in this film noir, an early showcase of her magnetic screen presence and a foreshadowing of the sex-on-legs icon she\u2019d become throughout the decade with films like Joy House, Circle of Love and Barbarella.\n\nThis screening is part of I LOVE YOU JANE FONDA!, the first double bill night by Deleted Scenes.",
+            "screen": "Nickel",
+            "screeningType": "digital",
+            "url": "https://book.thenickel.co.uk/screening/57",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "19:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "1962",
+                "countries": "USA",
+                "directors": [
+                    "Edward Dmytryk"
+                ],
+                "screening_medium": "Digital",
+                "db_id": 60792
+            }
+        }
+    },
+    "close_up": {
+        "Close-Up": {
+            "description": "\u201cAbbas Kiarostami has created some of the most inventive and transcendent cinema of the past thirty years, and\u00a0Close-up\u00a0is his most radical, brilliant work. This fiction-documentary hybrid uses a sensational real-life event \u2013 the arrest of a young man on charges that he fraudulently impersonated the well-known filmmaker Mohsen Makhmalbaf \u2013 as the basis for a stunning, multilayered investigation into movies, identity, artistic creation, and existence, in which the real people from the case play themselves. With its universal themes and fascinating narrative knots,\u00a0Close-up\u00a0has resonated with viewers around the world.\u201d \u2013 Janus Films",
+            "screen": "close_up",
+            "screeningType": "Digital",
+            "url": "https://www.closeupfilmcentre.com/film_programmes/2026/close-up-on-abbas-kiarostami/close-up",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "20:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "18:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "director": "Abbas Kiarostami",
+                "release_year": 1990,
+                "runtime_mins": 98
+            }
+        },
+        "Taste of Cherry": {
+            "description": "\u201cThe first Iranian film to win the Palme d\u2019Or, this austere, emotionally complex drama by the great Abbas Kiarostami follows the enigmatic Mr. Badii (Homayoun Ershadi) as he drives around the hilly outskirts of Tehran looking for someone who will agree to bury him after he commits suicide, a taboo under Islam. Extended conversations with three passengers\u00a0(a soldier, a seminarian, and a taxidermist) elicit different views on mortality and individual choice. Operating at once as a closely observed, realistic story and a fable populated by archetypal figures,\u00a0Taste of Cherry\u00a0challenges the viewer to consider what often goes unexamined in everyday life.\u201d \u2013 Janus Films",
+            "screen": "close_up",
+            "screeningType": "Digital",
+            "url": "https://www.closeupfilmcentre.com/film_programmes/2026/close-up-on-abbas-kiarostami/taste-of-cherry",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "16:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "director": "Abbas Kiarostami",
+                "release_year": 1997,
+                "runtime_mins": 99
+            }
+        },
+        "The Short Films of David Lynch": {
+            "description": "",
+            "screen": "close_up",
+            "screeningType": "Digital",
+            "url": "https://www.closeupfilmcentre.com/film_programmes/2026/the-short-films-of-david-lynch",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "18:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "director": "none",
+                "release_year": 1967,
+                "runtime_mins": 0
+            }
+        },
+        "Homework": {
+            "description": "\u201cIn Kiarostami\u2019s second documentary feature about education, the filmmaker himself asks the questions, probing a succession of invariably cute first and second graders about their home situations and the schoolwork they must do there. It emerges that many parents are illiterate. Tellingly, many kids can define punishment (the corporal variety seems common) but not encouragement.\u201d \u2013 Janus Films Preceded by:",
+            "screen": "close_up",
+            "screeningType": "Digital",
+            "url": "https://www.closeupfilmcentre.com/film_programmes/2026/close-up-on-abbas-kiarostami/homework-the-chorus",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "16:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "director": "Abbas Kiarostami",
+                "release_year": 1989,
+                "runtime_mins": 77
+            }
+        },
+        "And Life Goes On": {
+            "description": "\u201cIn the aftermath of a 1990 earthquake that left 30,000 dead, Kiarostami returned to the village of Koker where his camera surveys not only the devastation but the teeming life that continues in its wake. Blending fiction and reality into a playful, poignant road movie,\u00a0And Life Goes On\u00a0follows a film director (played by an actor standing in for Kiarostami) who, along with his son, makes the difficult trek to the region in hopes of finding out if the young star of his movie\u00a0Where is the Friend\u2019s House?\u00a0is among the survivors. There he discovers a resilient community pressing on in the face of tragedy as he\u2019s helped along on his journey by the generosity of those he meets. Finding beauty in the bleakest of circumstances, Kiarostami crafts a quietly majestic ode to the best of the human spirit.\u201d \u2013 Janus Films",
+            "screen": "close_up",
+            "screeningType": "Digital",
+            "url": "https://www.closeupfilmcentre.com/film_programmes/2026/close-up-on-abbas-kiarostami/and-life-goes-on",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "20:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "director": "Abbas Kiarostami",
+                "release_year": 1992,
+                "runtime_mins": 95
+            }
+        }
+    },
+    "ica": {
+        "UK PREMIERE Fiume o morte!": {
+            "description": "Igor Bezinovi\u0107 weaves archive and interview to recount poet and military officer Gabriele D\u2019Annunzio\u2019s radical 1919 occupation of Fiume (Rijeka, Croatia), revealing the stirrings of European fascism in the wake of World War I.",
+            "screen": "ica",
+            "screeningType": "standard",
+            "url": "https://www.ica.art/films/off-circuit-fiume-o-morte",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:00"
+                    ]
+                }
+            ]
+        },
+        "In Focus: Frederick Wiseman": {
+            "description": "A rich portrait of the Troisgros family, tracing four generations of culinary excellence and daily life across their three Michelin-starred restaurants in the heart of central France.",
+            "screen": "ica",
+            "screeningType": "standard",
+            "url": "https://www.ica.art/films/menus-plaisirs-les-troisgros",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "18:30",
+                        "19:15"
+                    ]
+                }
+            ]
+        },
+        "Peter Hujar's Day": {
+            "description": "Ben Whishaw and Rebecca Hall star in the masterful new film from Ira Sachs, an intimate, richly cinematic rendering of a conversation between photographer Peter Hujar and writer Linda Rosenkrantz.",
+            "screen": "ica",
+            "screeningType": "standard",
+            "url": "https://www.ica.art/films/peter-hujar-s-day",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:30"
+                    ]
+                }
+            ]
+        },
+        "Narrow Margin presents: The Cinema of Diagonale": {
+            "description": "The film that first united many of the cast and crew members who would become Diagonale mainstays, Paul Vecchiali\u2019s Femmes femmes, lauded as \u201cexceptionally beautiful\u201d by Pier Paolo Pasolini, depicts the eccentric lives of two unemployed middle-aged actresses who share the same flat in Paris.",
+            "screen": "ica",
+            "screeningType": "standard",
+            "url": "https://www.ica.art/films/narrow-margin-femmes-femmes",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "16:00"
+                    ]
+                }
+            ]
+        },
+        "Off-Circuit": {
+            "description": "A former member of the East Asian Anti-Japanese Armed Front\u2019s 'Scorpion Cell,; Kirishima Satoshi spent decades underground, living quietly under an alias as a wanted fugitive. As he confronts terminal illness in 2024, his years on the run resurface. Juxtaposing these final moments with his own revolutionary past, Adachi Masao portrays Kirishima\u2019s anguish and determination in Escape.",
+            "screen": "ica",
+            "screeningType": "standard",
+            "url": "https://www.ica.art/films/escape",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "16:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "16:00"
+                    ]
+                }
+            ]
+        },
+        "The Voice of Hind Rajab": {
+            "description": "Using audio from actual phone conversations, Kaouther Ben Hania\u2019s searing film recounts a day in January 2024 where workers at the Palestine Red Crescent Society  struggled to intervene in the preventable murder of Hind Rajab.",
+            "screen": "ica",
+            "screeningType": "standard",
+            "url": "https://www.ica.art/films/the-voice-of-hind-rajab",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "14:15",
+                        "20:30"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:15",
+                        "18:20"
+                    ]
+                }
+            ]
+        },
+        "Carl Elsaesser: Vague Images at the Beginning and End of the Day": {
+            "description": "A programme of films showcasing the work of American experimental filmmaker Carl Elsaesser, presented by Open City Documentary Festival, moving between melodrama and residues, as evidence of cinema\u2019s capacity to mourn, desire and care.",
+            "screen": "ica",
+            "screeningType": "standard",
+            "url": "https://www.ica.art/films/open-city-carl-elsaesser",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "18:00"
+                    ]
+                }
+            ]
+        },
+        "In Focus: Adachi Masao FILM POLITICS REVOLUTION": {
+            "description": "Made in 1969, AKA Serial Killer is a landmark of Japanese political cinema and the foundational work of landscape theory. Prompted by the murders committed by the young Nagayama Norio in 1968, the film reconstructs his life through the spaces he would have encountered, treating the urban and industrial landscapes of late-1960s Japan as sites where postwar modernisation, social oppression, and state authority are visible and intertwined. UK premiere of the 4K restoration.",
+            "screen": "ica",
+            "screeningType": "",
+            "url": "https://www.ica.art/films/adachi-aka-serial-killer",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:20",
+                        "14:20"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "Eureka": {
+            "description": "Following a violent bus hijacking, three survivors \u2013 a bus driver and two siblings \u2013 embark on a quiet journey across Japan\u2019s southern landscape. Part road film, part unconventional family drama, Eureka reimagines the bounds of cinema at the turn of the century with magnetic force.",
+            "screen": "ica",
+            "screeningType": "",
+            "url": "https://www.ica.art/films/aoyama-eureka",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:15"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "In Focus: Pedro Pinho": {
+            "description": "Sergio, an environmental engineer from Portugal, travels to Guinea-Bissau for an impact report. There, lonely in the heat, he encounters Diara and Guilermhe and begins to approach the post-colonial and capitalist forces shaping their lives.",
+            "screen": "ica",
+            "screeningType": "",
+            "url": "https://www.ica.art/films/off-circuit-i-only-rest-in-the-storm",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "18:15"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "Sentimental Value": {
+            "description": "Following The Worst Person in the World, Joachim Trier reunites with Renate Reinsve for a moving exploration of sisterhood, father-daughter relationships and the evocative power of childhood memories. Sentimental Value won the Cannes Grand Prix award, and features career-best performances from Golden Globe winner Stellan Skarsg\u00e5rd and Elle Fanning.",
+            "screen": "ica",
+            "screeningType": "",
+            "url": "https://www.ica.art/films/sentimental-value",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "20:20"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        },
+        "The Tale of Silyan": {
+            "description": "Nikola is a farmer grappling with the harsh realities of new government policies. When his family leaves, Nikola takes a job as a landfill attendant, where he encounters the injured white stork Silyan and an unlikely bond forms between man and animal.",
+            "screen": "ica",
+            "screeningType": "",
+            "url": "https://www.ica.art/films/the-tale-of-silyan",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:15"
+                    ]
+                }
+            ],
+            "_additional_info": {}
+        }
+    },
+    "rio": {
+        "Sentimental Value": {
+            "description": "A seasonally appropriate look at family relationships, the internationally acclaimed SENTIMENTAL VALUE is an insightful, captivating, often unexpectedly funny, triumph for director Joachim Trier.    After years apart, Nora and Agnes are reunited with their father, Gustav, a once-renowned film direct...",
+            "screen": "Screen 2",
+            "screeningType": "Main Feature",
+            "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=1916938",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "17:30"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "16:50"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "directors": [
+                    "Joachim Trier"
+                ],
+                "countries": [
+                    "Finland"
+                ],
+                "year": 2025,
+                "db_id": 1124566
+            }
+        },
+        "Marty Supreme": {
+            "description": "Timoth\u00e9e Chalamet is the one to beat as he goes to hell and back in pursuit of greatness in this gripping, adrenaline-riddled solo debut from writer/director Josh Safdie.  Marty Mauser, a talented and ambitious table tennis player is determined that the world knows his name, and is willing to do wha...",
+            "screen": "Screen 1",
+            "screeningType": "Main Feature",
+            "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=1833872",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:10",
+                        "20:15"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "13:45",
+                        "19:40"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "directors": [
+                    "Josh Safdie "
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 2025,
+                "db_id": 1317288
+            }
+        },
+        "Hamnet": {
+            "description": "The multi award-winning director of NOMADLAND, Chlo\u00e9 Zhao, is back with a raw and honest, lyrical and passionate, portrait of love, grief and the power of storytelling that features truly captivating performances from Paul Mescal and Jessie Buckley.    England 1580. Impoverished Latin tutor William ...",
+            "screen": "Screen 1",
+            "screeningType": "Main Feature",
+            "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=1982795",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:00",
+                        "17:45",
+                        "20:30"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:45",
+                        "18:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "directors": [
+                    "Chlo\u00e9 Zhao"
+                ],
+                "countries": [
+                    "UK"
+                ],
+                "year": 2025,
+                "db_id": 858024
+            }
+        },
+        "Saturday Morning Picture Club: Song of the Sea": {
+            "description": "Join us from 10.15am for craft activities, before the film screening at 11am!   The Rio\u2019s beloved and historic Saturday Morning Picture Club is back for a magical winter screening! This month we\u2019re showing the enchanting Irish animated gem SONG OF THE SEA , a beautifully hand-drawn adventure inspire...",
+            "screen": "Screen 1",
+            "screeningType": "Film",
+            "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=1947543",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "10:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "directors": [
+                    "Tomm Moore"
+                ],
+                "countries": [
+                    "Ireland"
+                ],
+                "year": 2014,
+                "db_id": 110416
+            }
+        },
+        "Films For Workers: Killer of Sheep": {
+            "description": "The Rio presents the first screening in its FILMS FOR WORKERS season.  KILLER OF SHEEP (1979) examines life in the Black Los Angeles ghetto of Watts in the mid-1970s through the eyes of Stan, a sensitive dreamer who is growing detached and numb from the psychic toll of working at a slaughterhouse. F...",
+            "screen": "Screen 1",
+            "screeningType": "Film",
+            "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=1985174",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "15:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "directors": [
+                    "Charles Burnett"
+                ],
+                "countries": [
+                    "USA"
+                ],
+                "year": 1979,
+                "db_id": 27432
+            }
+        },
+        "Healers, Midwives, Witches + Q&amp;A": {
+            "description": "Healers, Midwives, Witches is an experimental documentary that follows the connections between village midwives and the figures of healers and witches found in historical archives. Moving between archival engravings from London and intimate conversations with the filmmaker\u2019s grandmother and great-au...",
+            "screen": "Screen 1",
+            "screeningType": "Film",
+            "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2010375",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "13:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "directors": [
+                    "Ays\u0131la K\u00f6se"
+                ],
+                "countries": [
+                    "Turkey, UK"
+                ],
+                "year": 2025
+            }
+        },
+        "The Voice of Hind Rajab": {
+            "description": "Capturing the human devastation at the heart of war, THE VOICE OF HIND RAJAB is an innovative hybrid of drama and documentary in which hope and helplessness are balanced on a tightrope.  January 29, 2024. Workers at the Palestinian Red Crescent Society receive an emergency call. A terrified 6-year-o...",
+            "screen": "Screen 2",
+            "screeningType": "Documentary",
+            "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=1742596",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:20",
+                        "16:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "16:00",
+                        "20:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "directors": [
+                    "Kaouther Ben Hania"
+                ],
+                "countries": [
+                    "Tunisia, France"
+                ],
+                "year": 2025
+            }
+        }
+    },
+    "garden_cinema": {
+        "Blue Moon": {
+            "description": "On the evening of 31 March, 1943, legendary lyricist Lorenz Hart confronts his shattered self-confidence in Sardi\u2019s bar as his former collaborator Richard Rodgers celebrates the opening night of his ground-breaking hit musical Oklahoma! The Garden Cinema View: This tremendously witty and\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/blue-moon/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "17:45"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:30"
+                    ]
+                }
+            ]
+        },
+        "Living Large": {
+            "description": "Winner of many awards, including at Annecy Film Festival, the largest animation film festival in the world,\u00a0Living Large\u00a0is an honest exploration of puberty, first love and the difficult relationship with our bodies.The film\u2019s gorgeous visual world is created using stop-motion puppet animation\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/living-large/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "11:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "11:00"
+                    ]
+                }
+            ]
+        },
+        "It Was Just an Accident": {
+            "description": "Winner of the Palme d\u2019Or at Cannes, It Was Just an Accident\u00a0is a fearless tour-de-force from cinematic luminary Jafar Panahi. Both urgently political and deeply humane, this new moral classic confronts truth and uncertainty, revenge and mercy, head-on. When auto mechanic Vahid\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/it-was-just-an-accident/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:30"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:10"
+                    ]
+                }
+            ]
+        },
+        "Marty Supreme": {
+            "description": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness. \u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/marty-supreme/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:20",
+                        "20:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "16:40"
+                    ]
+                }
+            ]
+        },
+        "Sentimental Value": {
+            "description": "Following the success of global phenomenon The Worst Person in the World, Academy Award-nominee Joachim Trier reunites with BAFTA nominee Renate Reinsve for their universally acclaimed follow-up, Sentimental Value. Winner of the prestigious Cannes Grand Prix award, and featuring career-best performances from\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/sentimental-value/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "13:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "19:30"
+                    ]
+                }
+            ]
+        },
+        "Hamnet": {
+            "description": "1580 England. Impoverished Latin tutor William Shakespeare meets free-spirited Agnes, and the pair, captivated by one another, strike up a torrid affair that leads to marriage and three children. Yet as Will pursues a budding theatre career in far-away London, Agnes anchors\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/hamnet/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "12:45",
+                        "15:45",
+                        "18:15"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:25",
+                        "17:00"
+                    ]
+                }
+            ]
+        },
+        "Sake, onigiri + Tampopo": {
+            "description": "Members are invited to join us on Saturday 17 January to help us serve up our new season of 1980s Japanese cinema: The Lost Decade. To celebrate in style, we'll be raising a glass of sake (or sparkling jasmine tea from Saicho)\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/1980s-japan-launch-tampopo/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "16:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1985
+            }
+        },
+        "Blue Velvet (40th Anniversary)": {
+            "description": "There's something going on behind the white picket fences of Lumberton, North Carolina. And after stumbling upon a severed human ear in a field, mystery-loving college student Jeffrey Beaumont is determined to find out what. Teaming up with the daughter of a\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/blue-velvet-40th-anniversary/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "20:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1986
+            }
+        },
+        "S\u00e1t\u00e1ntang\u00f3": {
+            "description": "S\u00e1t\u00e1ntang\u00f3\u00a0is screening in tribute to Bela Tarr, who sadly passed away this month. Bela Tarr\u2019s epic rendering of L\u00e1szl\u00f3 Krasznahorkai's novel, about the decline of Communism in Eastern Europe, is a unique and visionary masterpiece that defies classification and transcends genre. Set\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/satantango/",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "13:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1994
+            }
+        },
+        "The Voice of Hind Rajab": {
+            "description": "January 29, 2024. Red Crescent volunteers receive an emergency call. A 5-year old girl is trapped in a car under fire in Gaza, pleading for rescue. While trying to keep her on the line, they do everything they can to get an\u2026 Read\u00a0More",
+            "screen": "garden_cinema",
+            "screeningType": "Digital",
+            "url": "https://www.thegardencinema.co.uk/film/the-voice-of-hind-rajab/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:15",
+                        "20:45"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "15:00",
+                        "19:45"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2025
+            }
+        }
+    },
+    "the_cinema_museum": {
+        "The Blinking Buzzards \u2013 17 January": {
+            "description": "The UK Buster Keaton Society. Quarterly meeting of the society dedicated to the appreciation of the silent comedian.",
+            "screen": "cinema_museum",
+            "screeningType": "",
+            "url": "http://www.cinemamuseum.org.uk/2025/the-blinking-buzzards-17-january/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "16:00"
+                    ]
+                }
+            ]
+        }
+    },
+    "cine_lumiere": {
+        "Sentimental Value": {
+            "description": "Reinsve plays Nora, a successful stage actress who, along with her sister Agnes (Inga Ibsdotter Lilleaas), reunites with their estranged father Gustav Borg (a mesmerising Stellan Skarsg\u00e5rd) \u2013 a once-renowned film director planning a major comeback with a script based on his family. When Gustav offers Nora the lead role, which she promptly declines, he turns his attention to Rachel Kemp (Elle Fanning), an eager young Hollywood starlet primed for her big breakthrough\u2026Following the success ofThe Worst Person in the World, Joachim Trier reunites with Renate Reinsve for this profoundly moving film \u2013 winner of the Grand Prix award at Cannes \u2013 that explores sisterhood, father-daughter relationships and the power of childhood memories.",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/sentimental-value/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "15:30",
+                        "20:20"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "13:20",
+                        "16:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "2025",
+                "duration": "133",
+                "directors": "Joachim Trier",
+                "actors": "Renate Reinsve, Stellan Skarsg\u00e5rd, Inga Ibsdotter Lilleaas, Elle Fanning",
+                "classification": "15",
+                "db_id": 1124566
+            }
+        },
+        "The Voice of Hind Rajab": {
+            "description": "January 29, 2024. Red Crescent volunteers receive an urgent call: a six-year-old girl is trapped in a car under fire in Gaza, begging for rescue. While they try to keep her on the line, they do everything possible to send an ambulance to reach her. Her name was Hind Rajab. Drawing on the audio recording and building a fictional narrative around it, Kaouther Ben Hania (Four Daughters) has made a vital film for our time, awarded the Silver Lion at the Venice Film Festival.\u201cI heard an audio recording of Hind Rajab begging for help. By then, her voice had already spread across the Internet. I immediately felt a mix of helplessness, and an overwhelming sadness. (\u2026) I had to drop everything else. I had to make this film. I spoke at length with Hind\u2019s mother, with the real people who were on the other end of that call, those who tried to help her. I listened, I cried, I wrote. Then I wove a story around their testimonies, using the real audio recording of Hind\u2019s voice, and building a single-location film where the violence remains off-screen. That was a deliberate choice. (\u2026)This story is not just about Gaza. It speaks to a universal grief. And I believe that fiction (especially when it draws from verified, painful, real events) is cinema\u2019s most powerful tool. (\u2026) Cinema can preserve a memory. Cinema can resist amnesia.\u201dKaouther Ben Hania",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/the-voice-of-hind-rajab-3/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "13:30",
+                        "16:00",
+                        "18:20",
+                        "20:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "12:00",
+                        "16:20",
+                        "19:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "2025",
+                "duration": "89",
+                "directors": "Kaouther Ben Hania",
+                "actors": "Saja Kilani, Motaz Malhees, Clara Khoury, Amer Hlehel",
+                "classification": "15",
+                "db_id": 1480382
+            }
+        },
+        "Weekend": {
+            "description": "This scathing satire from Jean-Luc Godard is one of cinema\u2019s great anarchic works. Determined to collect an inheritance from a dying relative, a bourgeois couple travel across the French countryside while civilisation crashes and burns around them. Featuring a justly famous sequence in which the camera tracks along a seemingly endless traffic jam, and rich with historical and literary references,Weekendis a surreal, funny and disturbing call for revolution, a depiction of society reverting to savagery, and \u2013 according to the credits \u2013 the end of cinema itself.",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/weekend/",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "14:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "1967",
+                "duration": "104",
+                "directors": "Jean-Luc Godard",
+                "actors": "Mireille Darc, Jean Yanne, Jean-Pierre Kalfon, Yves Afonso",
+                "classification": "18",
+                "db_id": 79120
+            }
+        },
+        "It Was Just an Accident": {
+            "description": "Vahid, an Azerbaijani auto mechanic, was once imprisoned by Iranian authorities. During his sentence, he was interrogated blindfolded. One day, a man named Eghbal enters his workshop. His prosthetic leg creaks, and Vahid thinks he recognises one of his former torturers. Will he take his vengeance or let him go?In his new film, a mirror for our troubled times, Jafar Panahi (Taxi Tehran, No Bears) addresses the profound question of living together and of justice for people who have committed atrocious acts against others.Jafar Panahi\u2019sIt Was Just an Accidentwon the Palme d\u2019Or at the 2025 Cannes Film Festival and has been selected to represent France at the next Academy Awards.",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/it-was-just-an-accident-2/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "17:55"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "2025",
+                "duration": "105",
+                "directors": "Jafar Panahi",
+                "actors": "Vahid Mobasseri, Mariam Afshari and Ebrahim Azizi",
+                "classification": "12A",
+                "db_id": 1456349
+            }
+        },
+        "Zootropolis 2": {
+            "description": "Detectives Judy Hopps and Nick Wilde find themselves on the twisting trail of a mysterious reptile who arrives in Zootropolis and turns the mammal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before. Oscar\u00ae winner Jared Bush (co-director/co-writerZootropolis, director/co-writerEncanto) directs a fun and joyful film that will please children and carers alike.",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/zootropolis-2/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "14:00"
+                    ]
+                },
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "11:00"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": "2025",
+                "duration": "108",
+                "directors": "Jared Bush & Byron Howard",
+                "actors": "Jason Bateman, Ginnifer Goodwin, Idris Elba, Ke Huy Quan, Shakira",
+                "classification": "PG",
+                "db_id": 1084242
+            }
+        },
+        "Palestine 36": {
+            "description": "1936. Palestine has been under British mandatory control since 1920 and tensions are flaring over the future of the territory and of its population. Chronicling the lives of both Palestinians and the British colonisers, Annemarie Jacir\u2019s drama is a gripping account of a critical moment in Palestinian history leading up to the 1936 Arab revolt and its repression.For this epic film, Palestine\u2019s entry to the international feature film Oscar award for 2026, Annemarie Jacir (Wajib,When I Saw You) has put together a stellar ensemble cast that includes Hiam Abbass, Jeremy Irons and Saleh Bakri, while also making use of exceptional archival footage from the period.",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/palestine-36/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "11:30"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2025,
+                "directors": [
+                    "Annemarie Jacir"
+                ],
+                "cast": [
+                    "Jeremy Irons",
+                    "Robert Aramayo",
+                    "Liam Cunningham"
+                ],
+                "age_rating": "12A"
+            }
+        },
+        "Le M\u00e9pris": {
+            "description": "Unusually cast and playfully shot, Godard\u2019s masterly hymn to cinema features Michel Piccoli and Brigitte Bardot as a couple whose marriage begins to fall apart while they are both on the island of Capri during the shooting of a film directed by Fritz Lang. As Camille, Bardot splendidly chips the male clich\u00e9s over women in this legendary part.These screenings are dedicated to the late Brigitte Bardot. A short season will be announced soon.",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/le-mepris/",
+            "when": [
+                {
+                    "date": "2026-01-17",
+                    "structured_date_strings": {
+                        "Weekday": "Saturday",
+                        "Month": "January",
+                        "day_str": "17th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 17,
+                    "showtimes": [
+                        "11:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 1963,
+                "directors": [
+                    "Jean-Luc Godard"
+                ],
+                "cast": [
+                    "Brigitte Bardot",
+                    "Jack Palance",
+                    "Michel Piccoli"
+                ],
+                "age_rating": "15"
+            }
+        },
+        "The President\u2019s Cake": {
+            "description": "While people across 1990s Iraq struggle to survive the war and food shortages, Saddam Hussein requires each school in the country to prepare a cake to celebrate his birthday. Despite her efforts to avoid getting picked, 9 year-old Lamia is chosen among her classmates. The young girl must now use her wits and imagination to gather ingredients for the mandatory cake or face the consequences. Selected in Cannes\u2019 Quinzaine des cin\u00e9astes where it won the Audience Award,The President\u2019s Cakewas shortlisted to represent Iraq at the 2026 Oscars.",
+            "screen": "Cin\u00e9 Lumi\u00e8re",
+            "screeningType": "standard",
+            "url": "https://www.institut-francais.org.uk/cinema/the-presidents-cake/",
+            "when": [
+                {
+                    "date": "2026-01-18",
+                    "structured_date_strings": {
+                        "Weekday": "Sunday",
+                        "Month": "January",
+                        "day_str": "18th"
+                    },
+                    "year": 2026,
+                    "month": 1,
+                    "day": 18,
+                    "showtimes": [
+                        "18:15"
+                    ]
+                }
+            ],
+            "_additional_info": {
+                "year": 2025,
+                "directors": [
+                    "Hasan Hadi"
+                ],
+                "cast": [
+                    "Baneen Ahmad Nayyef",
+                    "Waheed Thabet",
+                    "Khreibat"
+                ],
+                "age_rating": "12A"
+            }
+        }
+    }
+}

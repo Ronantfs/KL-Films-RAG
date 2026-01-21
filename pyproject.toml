@@ -1,0 +1,14 @@
+[project]
+name = "cinema-rag"
+version = "0.1.0"
+description = "Local RAG system for independent cinema listings in London"
+requires-python = ">=3.10"
+
+dependencies = [
+    "sentence-transformers>=2.2.2",  # embeddings (fast, local, strong semantic recall)
+    "faiss-cpu>=1.7.4",               # local vector similarity search
+    "numpy>=1.24.0"                   # numerical backbone for embeddings
+]
+
+[tool.setuptools]
+packages = ["cinema_rag.rag"]
