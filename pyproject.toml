@@ -1,14 +1,20 @@
 [project]
-name = "cinema-rag"
+name = "kl-mcp-rag"
 version = "0.1.0"
-description = "Local RAG system for independent cinema listings in London"
+description = "MCP-backed RAG system for querying independent cinema listings"
 requires-python = ">=3.10"
 
 dependencies = [
-    "sentence-transformers>=2.2.2",  # embeddings (fast, local, strong semantic recall)
-    "faiss-cpu>=1.7.4",               # local vector similarity search
-    "numpy>=1.24.0"                   # numerical backbone for embeddings
+    "openai>=1.0.0",     # embeddings + LLM calls
+    "numpy>=1.24.0",     # vector math
+    "mcp>=0.1.0"         # MCP server integration
 ]
 
 [tool.setuptools]
-packages = ["cinema_rag.rag"]
+packages = [
+    "kl_mcp_rag",
+    "kl_mcp_rag.rag",
+    "kl_mcp_rag.llm",
+    "kl_mcp_rag.constants",
+    "kl_mcp_rag.mcp_server"
+]
