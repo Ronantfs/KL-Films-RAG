@@ -19,7 +19,7 @@ class Intent(TypedDict):
 # ambiguous cinemas ("the cinema")?
 # TODO: raise custom exception
 # todo: test no cinema vs all cinemas
-def validate_cinemas(cinemas: list[str]) -> None:
+def _validate_cinemas(cinemas: list[str]) -> None:
     """Validate that the cinemas list contains only valid cinema names."""
     assert isinstance(cinemas, list)
     for cinema in cinemas:
@@ -28,7 +28,7 @@ def validate_cinemas(cinemas: list[str]) -> None:
 
 
 # todo add error handling
-def validate_intent(data: dict) -> None:
+def validate_intent(data: Intent) -> None:
     # --- assertions (deterministic guardrails) ---
     assert isinstance(data, dict)
 
@@ -39,14 +39,18 @@ def validate_intent(data: dict) -> None:
         "film_mention",
     }
 
-    validate_cinemas(data["cinemas"])
+    _validate_cinemas(data["cinemas"])
+
+    # type validation
+    assert data["date_expression"] is None or isinstance(data["date_expression"], str)
+    assert data["film_mention"] is None or isinstance(data["film_mention"], str)
 
 
 # "gpt-4.1-mini"
 # SYSTEM
 def parse_intent(
     parse_intent_version: ParseIntentVersion, client: OpenAI, query: str
-) -> dict:
+) -> Intent:
     resp = client.chat.completions.create(
         model=parse_intent_version["model_version"],
         messages=[
@@ -56,20 +60,10 @@ def parse_intent(
         response_format={"type": "json_object"},
     )
 
-    data = json.loads(resp.choices[0].message.content)  # type: ignore
-
-    # --- assertions (deterministic guardrails) ---
-    validate_intent(data)
-
-    # type validation
-    assert data["date_expression"] is None or isinstance(data["date_expression"], str)
-    assert data["film_mention"] is None or isinstance(data["film_mention"], str)
+    data: Intent = json.loads(resp.choices[0].message.content)  # type: ignore
 
     return data
 
-
-# noted issues with intent parsing:
-"Is Star Wars showing at a cinema next weekend? -> did not return a list of my cineams --> added explict context"
 
 # TODO: add handling for multiple intents in one query
 # or user feedback for restricting flow to one query -- have a think which is best

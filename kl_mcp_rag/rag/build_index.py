@@ -7,12 +7,12 @@ from kl_mcp_rag.constants_and_types.listings import RawCinemaFilms
 from kl_mcp_rag.rag.index import FilmIndex, openai_embed
 
 # Paths
-RAG_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = RAG_DIR.parent
-DATA_DIR = PROJECT_ROOT / "data"
+PACKAGE_ROOT = Path(__file__).resolve().parents[1]  # kl_mcp_rag
+DATA_DIR = PACKAGE_ROOT / "data"
 
-RAW_PATH = DATA_DIR / "raw_listings.json"
-OUT_PATH = DATA_DIR / "films.idx"
+
+RAW_PATH = DATA_DIR / "raw_listings.json"  # input
+INDEX_BASE_PATH = DATA_DIR / "films"  # output base (no suffix)
 
 
 def film_to_embedding_text(title: str) -> str:
@@ -45,4 +45,4 @@ def build_index(index: FilmIndex) -> None:
         index.add(text=text, meta={"title": title})
         print(f"Added to index: {title}")
 
-    index.save(OUT_PATH)
+    index.save(INDEX_BASE_PATH)

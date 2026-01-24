@@ -1,5 +1,6 @@
 import os
-from kl_mcp_rag.llm.parse_intent.parser import parse_intent
+from build.lib.kl_mcp_rag.rag.index import FilmIndex
+from kl_mcp_rag.llm.parse_intent.parser import Intent, parse_intent, validate_intent
 from kl_mcp_rag.llm.parse_dates.parse_dates import parse_dates
 from kl_mcp_rag.rag.resolve_film import resolve_film_title
 from kl_mcp_rag.rag.index import openai_embed
@@ -13,7 +14,6 @@ from kl_mcp_rag.llm.parse_intent.parser_versions import (
     PARSE_INTENT_VERSIONS,
     ParseIntentVersion,
 )
-
 
 CUR_PARSE_INTENT_VERSION = "pi_v1.1"
 
@@ -29,12 +29,17 @@ def handle_query(query: str) -> dict:
         CUR_PARSE_INTENT_VERSION
     ]
 
-    intent = parse_intent(parse_intent_version, client, query)
+    intent: Intent = parse_intent(parse_intent_version, client, query)
+    validate_intent(intent)
 
     dates: list[str] = parse_dates(intent["date_expression"])
 
+    index = FilmIndex(embed_fn=openai_embed)
+
+    print(0)
+
     film_title = (
-        resolve_film_title(intent["film_mention"], openai_embed)
+        resolve_film_title(intent["film_mention"], index)
         if intent.get("film_mention")
         else None
     )
@@ -45,7 +50,7 @@ def handle_query(query: str) -> dict:
     return {
         "tool": "search_film",  # add MCP for tool intened and required keys
         "arguments": {
-            "cinema": intent.get("cinema"),
+            "cinemas": intent.get("cinemas"),
             "dates": dates,
             "film_title": film_title,
         },

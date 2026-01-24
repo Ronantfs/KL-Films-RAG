@@ -7,21 +7,21 @@ from kl_mcp_rag.rag.build_index import build_index
 
 
 # Paths
-RAG_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = RAG_DIR.parent
-DATA_DIR = PROJECT_ROOT / "data"
+PACKAGE_ROOT = Path(__file__).resolve().parents[1]  # kl_mcp_rag
+DATA_DIR = PACKAGE_ROOT / "data"
 
-# TODO: docuemnent why npz
-INDEX_PATH = DATA_DIR / "films.npz"
+INDEX_BASE_PATH = DATA_DIR / "films"  # films.npz + films.json
+npz_path = INDEX_BASE_PATH.with_suffix(".npz")
+json_path = INDEX_BASE_PATH.with_suffix(".json")
 # TODO: investigate calibration of threshold
 THRESHOLD = 0.80
 
 
 def resolve_film_title(raw_text: str, index: FilmIndex) -> str | None:
-    if not INDEX_PATH.exists():
+    if not npz_path.exists() or not json_path.exists():
         build_index(index)
 
-    index.load_data(INDEX_PATH)
+    index.load_data(INDEX_BASE_PATH)
 
     score, meta = index.search(raw_text, k=1)[0]
     return meta["title"] if score >= THRESHOLD else None
@@ -35,7 +35,7 @@ def evaluate_film_embedding_function(
     index: FilmIndex,
 ):
 
-    if not TEST_INDEX_PATH.exists():
+    if not npz_path.exists() or not json_path.exists():
         build_index(index)
 
     index.load_data(TEST_INDEX_PATH)
