@@ -10,11 +10,5 @@ dependencies = [
     "mcp>=0.1.0"         # MCP server integration
 ]
 
-[tool.setuptools]
-packages = [
-    "kl_mcp_rag",
-    "kl_mcp_rag.rag",
-    "kl_mcp_rag.llm",
-    "kl_mcp_rag.constants",
-    "kl_mcp_rag.mcp_server"
-]
+[tool.setuptools.packages.find]
+where = ["."]

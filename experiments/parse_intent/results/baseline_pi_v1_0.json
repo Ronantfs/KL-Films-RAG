@@ -1,0 +1,65 @@
+{
+  "experiment_name": "baseline_pi_v1_0",
+  "parse_intent_version": "pi_v1.0",
+  "timestamp": "2026-01-24T12:33:28.846068",
+  "results": [
+    {
+      "test_case_id": "tc_001",
+      "test_label": "film + date, no cinema",
+      "raw_query": "Is Star Wars showing next weekend?",
+      "returned_data": {
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
+        "date_expression": "next weekend",
+        "film_mention": "Star Wars"
+      },
+      "expected_data": {
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
+        "date_expression": "next weekend",
+        "film_mention": "Star Wars"
+      },
+      "success": true
+    },
+    {
+      "test_case_id": "tc_002",
+      "test_label": "cinema + date, no film",
+      "raw_query": "What films are on at the Barbican tomorrow?",
+      "returned_data": {
+        "cinemas": [
+          "barbican"
+        ],
+        "date_expression": "tomorrow",
+        "film_mention": ""
+      },
+      "expected_data": {
+        "cinemas": [
+          "barbican"
+        ],
+        "date_expression": "tomorrow",
+        "film_mention": ""
+      },
+      "success": true
+    }
+  ]
+}
