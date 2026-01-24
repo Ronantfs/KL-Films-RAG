@@ -1,7 +1,7 @@
 {
-  "experiment_name": "baseline_pi_v1_0",
-  "parse_intent_version": "pi_v1.0",
-  "timestamp": "2026-01-24T13:29:46.476048",
+  "experiment_name": "baseline_pi_v1_1",
+  "parse_intent_version": "pi_v1.1",
+  "timestamp": "2026-01-24T13:55:17.864055",
   "results": [
     {
       "test_case_id": "tc_001",
@@ -70,7 +70,7 @@
           "barbican"
         ],
         "date_expression": "",
-        "film_mention": "anything"
+        "film_mention": ""
       },
       "expected_data": {
         "cinemas": [
@@ -79,14 +79,25 @@
         "date_expression": "",
         "film_mention": ""
       },
-      "success": false
+      "success": true
     },
     {
       "test_case_id": "tc_004",
       "test_label": "film + date, no cinema",
       "raw_query": "Is Sentimental Value playing tonight?",
       "returned_data": {
-        "cinemas": [],
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
         "date_expression": "tonight",
         "film_mention": "Sentimental Value"
       },
@@ -106,14 +117,25 @@
         "date_expression": "tonight",
         "film_mention": "Sentimental Value"
       },
-      "success": false
+      "success": true
     },
     {
       "test_case_id": "tc_005",
       "test_label": "date only, fully ambiguous cinema + film",
       "raw_query": "What\u2019s on this weekend?",
       "returned_data": {
-        "cinemas": [],
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
         "date_expression": "this weekend",
         "film_mention": ""
       },
@@ -133,7 +155,7 @@
         "date_expression": "this weekend",
         "film_mention": ""
       },
-      "success": false
+      "success": true
     },
     {
       "test_case_id": "tc_006",
@@ -182,9 +204,20 @@
       "test_label": "date only, vague language",
       "raw_query": "Is anything good on next Friday?",
       "returned_data": {
-        "cinemas": [],
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
         "date_expression": "next Friday",
-        "film_mention": "anything good"
+        "film_mention": ""
       },
       "expected_data": {
         "cinemas": [
@@ -202,7 +235,7 @@
         "date_expression": "next Friday",
         "film_mention": ""
       },
-      "success": false
+      "success": true
     },
     {
       "test_case_id": "tc_009",
@@ -251,7 +284,18 @@
       "test_label": "film only, implicit all cinemas",
       "raw_query": "Is Sentimental Value showing anywhere?",
       "returned_data": {
-        "cinemas": [],
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
         "date_expression": "",
         "film_mention": "Sentimental Value"
       },
@@ -271,7 +315,7 @@
         "date_expression": "",
         "film_mention": "Sentimental Value"
       },
-      "success": false
+      "success": true
     },
     {
       "test_case_id": "tc_012",
@@ -320,9 +364,20 @@
       "test_label": "fully underspecified query",
       "raw_query": "Is anything showing?",
       "returned_data": {
-        "cinemas": [],
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
         "date_expression": "",
-        "film_mention": "anything"
+        "film_mention": ""
       },
       "expected_data": {
         "cinemas": [
@@ -340,16 +395,27 @@
         "date_expression": "",
         "film_mention": ""
       },
-      "success": false
+      "success": true
     },
     {
       "test_case_id": "tc_015",
       "test_label": "multiple films mentioned (known limitation)",
       "raw_query": "Are there screenings of Sentimental Value and Star Wars this weekend?",
       "returned_data": {
-        "cinemas": [],
+        "cinemas": [
+          "barbican",
+          "bfi_southbank",
+          "castle",
+          "nickel",
+          "close_up",
+          "cine_lumiere",
+          "the_cinema_museum",
+          "garden_cinema",
+          "rio",
+          "ica"
+        ],
         "date_expression": "this weekend",
-        "film_mention": "Sentimental Value and Star Wars"
+        "film_mention": "Sentimental Value, Star Wars"
       },
       "expected_data": {
         "cinemas": [
@@ -367,7 +433,7 @@
         "date_expression": "this weekend",
         "film_mention": "Sentimental Value, Star Wars"
       },
-      "success": false
+      "success": true
     },
     {
       "test_case_id": "tc_016",

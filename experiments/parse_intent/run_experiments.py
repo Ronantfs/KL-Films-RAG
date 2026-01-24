@@ -25,6 +25,7 @@ def run() -> None:
 
         # Run each test case in the experiment
         for tc_id in experiment["test_case_ids"]:
+            print(f"[{experiment['name']}]: Running test case {tc_id}...")
             tc = test_case_map[tc_id]
 
             # parse query with versioned parser

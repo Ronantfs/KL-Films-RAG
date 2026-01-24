@@ -34,6 +34,25 @@ Query: "Is Star Wars showing at a cinema next weekend?"
 }}
 """
 
+# updates to handle experiement baseline_pi_v1_0 failueres:
+# tc_003, 4, 5, 8 , 11, 14, 15
+E1_3_8_14 = """
+FILM MENTION:
+- Do NOT treat generic words or phrases such as "anything", "anything good", "something", or "anything showing" as film names.
+- If no specific film title is mentioned, return an empty string for film_mention.
+"""
+E1_4_5_11 = """
+CINEMAS DEFAULT RULE:
+- If it is not clear what cienma(s) are specifed by query or no cinema is mentioned,
+assume the user is asking about all cineams, and return all valid cinema names in the cinemas list.
+"""
+E1_15 = """
+MULTIPLE FILMS:
+- If more than one film title is mentioned:return as single comma seperated string with no conmjections (e.g. "Film A, Film B").
+"""
+V2_0 = V1_0 + E1_3_8_14 + E1_4_5_11 + E1_15
+
 
 class PromptVersions(str, Enum):
     V1_0 = V1_0
+    V2_0 = V2_0

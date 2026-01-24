@@ -11,8 +11,12 @@ class ParseIntentVersion(TypedDict):
 
 
 PARSE_INTENT_VERSIONS: Dict[str, ParseIntentVersion] = {
-    "pi_v1.0": {
+    # "pi_v1.0": {
+    #     "model_version": ModelVersions.GPT_4_1_MINI.value,
+    #     "prompt_version": PromptVersions.V1_0.value,
+    # },
+    "pi_v1.1": {
         "model_version": ModelVersions.GPT_4_1_MINI.value,
-        "prompt_version": PromptVersions.V1_0.value,
+        "prompt_version": PromptVersions.V2_0.value,
     },
 }
