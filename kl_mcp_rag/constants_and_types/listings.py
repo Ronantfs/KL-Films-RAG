@@ -1,7 +1,8 @@
 from typing import TypedDict
-from typing_extensions import Literal
+from enum import Enum
+from typing import TypedDict
 
-CINEMAS = (
+CINEMAS = [
     "barbican",
     "bfi_southbank",
     "castle",
@@ -12,9 +13,20 @@ CINEMAS = (
     "garden_cinema",
     "rio",
     "ica",
-)
+]
 
-CinemaName = Literal[*CINEMAS]
+
+class CinemaName(str, Enum):
+    BARBICAN = "barbican"
+    BFI_SOUTHBANK = "bfi_southbank"
+    CASTLE = "castle"
+    NICKEL = "nickel"
+    CLOSE_UP = "close_up"
+    CINE_LUMIERE = "cine_lumiere"
+    THE_CINEMA_MUSEUM = "the_cinema_museum"
+    GARDEN_CINEMA = "garden_cinema"
+    RIO = "rio"
+    ICA = "ica"
 
 
 class FilmDetails(TypedDict):

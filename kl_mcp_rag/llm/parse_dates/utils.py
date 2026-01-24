@@ -44,7 +44,7 @@ def _specific_month_day(today: date, month: int, day: int) -> list[str]:
 
 
 def _jan_28_or_next_monday(today: date) -> list[str]:
-    dates: set[str] = set(specific_month_day(today, 1, 28))
+    dates: set[str] = set(_specific_month_day(today, 1, 28))
 
     weekday: int = today.weekday()
     next_monday: date = today + timedelta(days=(7 - weekday))

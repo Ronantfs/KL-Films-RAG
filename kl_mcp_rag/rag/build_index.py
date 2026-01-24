@@ -1,7 +1,10 @@
+from collections.abc import Callable
 import json
 from pathlib import Path
+
+import numpy as np
 from kl_mcp_rag.constants_and_types.listings import RawCinemaFilms
-from rag.index import FilmIndex
+from kl_mcp_rag.rag.index import FilmIndex, openai_embed
 
 # Paths
 RAG_DIR = Path(__file__).resolve().parent
@@ -29,8 +32,7 @@ def extract_unique_film_titles(raw: RawCinemaFilms) -> set[str]:
 # also given embeddings are non-neglibible cost, think about a caching layer:
 # do we need to re-embed films that we all ready in out database?
 # however, we want it to be smart because don;t want vector store to grow unboundedly
-def build_index() -> None:
-    index = FilmIndex()
+def build_index(index: FilmIndex) -> None:
 
     with open(RAW_PATH) as f:
         raw: RawCinemaFilms = json.load(f)
@@ -39,12 +41,8 @@ def build_index() -> None:
     unique_titles = extract_unique_film_titles(raw)
 
     for title in unique_titles:
-        text = film_to_embedding_text(title=title)
+        text: str = film_to_embedding_text(title=title)
         index.add(text=text, meta={"title": title})
         print(f"Added to index: {title}")
 
     index.save(OUT_PATH)
-
-
-if __name__ == "__main__":
-    build_index()

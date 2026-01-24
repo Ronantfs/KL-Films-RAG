@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug parse_intent experiments",
+      "type": "python",
+      "request": "launch",
+      "module": "experiments.parse_intent.run_experiments",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}
