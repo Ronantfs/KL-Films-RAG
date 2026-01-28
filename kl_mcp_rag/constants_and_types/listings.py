@@ -29,12 +29,27 @@ class CinemaName(str, Enum):
     ICA = "ica"
 
 
+class StructuredDateStrings(TypedDict):
+    Weekday: str  # e.g., "Sunday"
+    Month: str  # e.g., "May"
+    day_str: str  # e.g., "5th"
+
+
+class Listing_When_Date(TypedDict):
+    date: str  # Format of str: YYYY-MM-DD
+    structured_date_strings: StructuredDateStrings
+    year: int
+    month: int
+    day: int
+    showtimes: list[str]  # Format of str: HH:MM
+
+
 class FilmDetails(TypedDict):
     description: str
     screen: str
     screeningType: str
     url: str
-    when: list[dict]
+    when: list[Listing_When_Date]
     runtime: str
 
 

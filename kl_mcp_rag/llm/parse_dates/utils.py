@@ -203,7 +203,6 @@ def validate_dates(data: dict):
     assert isinstance(data, dict)
     assert set(data.keys()) == {"dates"}
     assert isinstance(data["dates"], list)
-    assert len(data["dates"]) > 0
 
     for d in data["dates"]:
         assert isinstance(d, str)

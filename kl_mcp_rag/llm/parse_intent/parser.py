@@ -1,6 +1,6 @@
 from typing import Optional
 from openai import OpenAI
-from custom_types.pipeline import Intent
+from kl_mcp_rag.constants_and_types.pipeline import Intent
 from kl_mcp_rag.constants_and_types.listings import CINEMAS
 import json
 

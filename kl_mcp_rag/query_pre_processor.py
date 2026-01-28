@@ -9,7 +9,7 @@ from typing import Optional
 from openai import OpenAI
 from dotenv import load_dotenv
 
-from custom_types.pipeline import Intent, QueryDetails
+from kl_mcp_rag.constants_and_types.pipeline import Intent, QueryDetails
 
 load_dotenv()
 
