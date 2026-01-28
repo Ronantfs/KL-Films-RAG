@@ -198,7 +198,8 @@ def build_system_prompt(today: date) -> str:
 
 
 def validate_dates(data: dict):
-    # --- deterministic validation ---
+    # --- deterministic validation
+    # ensures dates are typed like ["YYYY-MM-DD", ...]
     assert isinstance(data, dict)
     assert set(data.keys()) == {"dates"}
     assert isinstance(data["dates"], list)

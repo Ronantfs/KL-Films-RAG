@@ -9,6 +9,36 @@
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "justMyCode": false
+    },
+    {
+      "name": "Debug kl_mcp_rag.app (module)",
+      "type": "python",
+      "request": "launch",
+      // Run as: python -m kl_mcp_rag.app
+      "module": "kl_mcp_rag.app",
+      // CRITICAL: project root, not kl_mcp_rag/
+      "cwd": "${workspaceFolder}",
+      // Ensures local code wins over site-packages
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Debug System",
+      "type": "python",
+      "request": "launch",
+      // Run as: python -m kl_mcp_rag.app
+      "module": "kl_mcp_rag.pipeline_handler",
+      // CRITICAL: project root, not kl_mcp_rag/
+      "cwd": "${workspaceFolder}",
+      // Ensures local code wins over site-packages
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
     }
   ]
 }
