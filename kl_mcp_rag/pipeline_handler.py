@@ -1,5 +1,8 @@
 import asyncio
-
+import argparse
+import os
+import json
+from pathlib import Path
 from typing import Any
 
 from kl_mcp_rag.constants_and_types.listings import RawCinemaFilms
@@ -7,17 +10,36 @@ from kl_mcp_rag.constants_and_types.pipeline import QueryDetails
 from kl_mcp_rag.determinisitic_lookups.lookup_router import route_query
 from kl_mcp_rag.query_pre_processor import extract_query_details
 
-
 # from kl_mcp_rag.mcp_server.client import MCPClient
-import json
-from pathlib import Path
-from typing import Any
 
 BASE_DIR = Path(__file__).resolve().parent  # kl_mcp_rag/
+DATA_DIR = BASE_DIR / "data"
+
 # static for testing
 V1_TEST_RAW_LISTINGS_PATH = BASE_DIR / "data" / "raw_listings_v1.json"
 # PRODUCTION
 RAW_LISTINGS_PATH = BASE_DIR / "data" / "raw_listings_v1.json"
+
+
+def resolve_raw_listings_file(filename: str) -> Path:
+    """
+    Resolve a raw listings filename to an absolute path.
+
+    Expectation:
+    - filename ONLY (e.g. 'v1_test_raw_listings.json')
+    - file must exist in kl_mcp_rag/data/
+
+    Raises early and loudly if the contract is violated.
+    """
+    if "/" in filename or "\\" in filename:
+        raise ValueError(f"Expected filename only, got path-like value: {filename}")
+
+    path = (DATA_DIR / filename).resolve()
+
+    if not path.exists():
+        raise FileNotFoundError(f"Raw listings file not found: {path}")
+
+    return path
 
 
 def _load_raw_listings(path: Path) -> Any:
@@ -39,7 +61,6 @@ async def handle_user_query(
     """
 
     # 1. Preprocess query into structured intent
-
     preprocessed_query: QueryDetails = extract_query_details(user_query)
 
     raw_listings: RawCinemaFilms = _load_raw_listings(path=raw_listings_path)
@@ -50,20 +71,42 @@ async def handle_user_query(
     )
 
     print(look_up_return)
+    return look_up_return
 
 
-async def main():
-    user_query = "what's shoing on 18th Jan?"
+def _parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--user-query", required=True)  # injected query text
+    parser.add_argument("--raw-listings-path", required=True)  # injected json path
+    return parser.parse_args()
 
-    result = await handle_user_query(
-        user_query=user_query,
-        raw_listings_path=V1_TEST_RAW_LISTINGS_PATH,
+
+def cli_entrypoint():
+    args = _parse_args()
+    raw_path = resolve_raw_listings_file(args.raw_listings_path)
+    asyncio.run(
+        handle_user_query(
+            user_query=args.user_query,
+            raw_listings_path=raw_path,
+        )
+    )
+
+
+def lambda_handler(event, context):
+    user_query = event.get("user_query") or os.environ["USER_QUERY"]
+    filename = event.get("raw_listings_path") or os.environ["RAW_LISTINGS_PATH"]
+    raw_path = resolve_raw_listings_file(filename)
+
+    return asyncio.run(
+        handle_user_query(
+            user_query=user_query,
+            raw_listings_path=raw_path,
+        )
     )
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
-
+    cli_entrypoint()
 
 # e2e test queries: V1_TEST_RAW_LISTINGS_PATH for raw listings (only 18th/19th Jan data)
 # matches correct look up function in each case

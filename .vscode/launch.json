@@ -1,5 +1,15 @@
 {
   "version": "0.2.0",
+
+  "inputs": [
+    {
+      "id": "userQuery",
+      "type": "promptString",
+      "description": "Enter user query",
+      "default": "what's showing on 18th Jan?"
+    }
+  ],
+
   "configurations": [
     {
       "name": "Debug parse_intent experiments",
@@ -14,11 +24,8 @@
       "name": "Debug kl_mcp_rag.app (module)",
       "type": "python",
       "request": "launch",
-      // Run as: python -m kl_mcp_rag.app
       "module": "kl_mcp_rag.app",
-      // CRITICAL: project root, not kl_mcp_rag/
       "cwd": "${workspaceFolder}",
-      // Ensures local code wins over site-packages
       "env": {
         "PYTHONPATH": "${workspaceFolder}"
       },
@@ -26,17 +33,38 @@
       "justMyCode": true
     },
     {
-      "name": "Debug System",
+      "name": "Debug Pipeline (HARD CODE)",
       "type": "python",
       "request": "launch",
-      // Run as: python -m kl_mcp_rag.app
       "module": "kl_mcp_rag.pipeline_handler",
-      // CRITICAL: project root, not kl_mcp_rag/
       "cwd": "${workspaceFolder}",
-      // Ensures local code wins over site-packages
       "env": {
         "PYTHONPATH": "${workspaceFolder}"
       },
+      "args": [
+        "--user-query",
+        "what's showing on 18th Jan?",
+        "--raw-listings-path",
+        " vs"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Debug Pipeline",
+      "type": "python",
+      "request": "launch",
+      "module": "kl_mcp_rag.pipeline_handler",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [
+        "--user-query",
+        "${input:userQuery}",
+        "--raw-listings-path",
+        "raw_listings_v1.json"
+      ],
       "console": "integratedTerminal",
       "justMyCode": true
     }

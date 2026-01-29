@@ -9,6 +9,8 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+lambda_build/
+lambda_bundle.zip
 develop-eggs/
 dist/
 downloads/
