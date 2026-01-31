@@ -92,17 +92,53 @@ def cli_entrypoint():
     )
 
 
+import json
+import os
+import asyncio
+
+
 def lambda_handler(event, context):
-    user_query = event.get("user_query") or os.environ["USER_QUERY"]
-    filename = event.get("raw_listings_path") or os.environ["RAW_LISTINGS_PATH"]
+    # --- Handle CORS preflight (browser OPTIONS request)
+    if event.get("requestContext", {}).get("http", {}).get("method") == "OPTIONS":
+        return {
+            "statusCode": 200,
+            "headers": {
+                "Access-Control-Allow-Origin": "*",  # allow all origins for now
+                "Access-Control-Allow-Methods": "OPTIONS,POST",
+                "Access-Control-Allow-Headers": "Content-Type",
+            },
+            "body": "",
+        }
+
+    # --- Parse JSON body sent by Lambda URL
+    body = json.loads(event.get("body", "{}"))  # Lambda URL sends body as string
+
+    user_query = body.get("user_query") or os.environ["USER_QUERY"]  # fallback to env
+    filename = (
+        body.get("raw_listings_path") or os.environ["RAW_LISTINGS_PATH"]
+    )  # fallback to env
+
     raw_path = resolve_raw_listings_file(filename)
 
-    return asyncio.run(
+    # --- Run async domain logic
+    result = asyncio.run(
         handle_user_query(
             user_query=user_query,
             raw_listings_path=raw_path,
         )
     )
+
+    # --- HTTP response expected by Lambda URL
+    return {
+        "statusCode": 200,
+        "headers": {
+            "Content-Type": "text/plain",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "OPTIONS,POST",
+            "Access-Control-Allow-Headers": "Content-Type",
+        },
+        "body": result,  # must be a string
+    }
 
 
 if __name__ == "__main__":
