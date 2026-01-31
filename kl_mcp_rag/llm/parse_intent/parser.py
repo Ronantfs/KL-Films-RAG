@@ -1,7 +1,7 @@
 from typing import Optional
 from openai import OpenAI
 from kl_mcp_rag.constants_and_types.pipeline import Intent
-from kl_mcp_rag.constants_and_types.listings import CINEMAS
+from kl_mcp_rag.constants_and_types.listings import CINEMAS, CinemaName
 import json
 
 from kl_mcp_rag.llm.parse_intent.parser_versions import ParseIntentVersion
@@ -37,7 +37,6 @@ def validate_intent(data: dict) -> Intent:
         "film_mention",
     }
 
-    # TODO: need to think about what I want to eonforce for cinemas at this point
     _validate_cinemas(data.get("cinemas"))
 
     # type validation
@@ -46,6 +45,22 @@ def validate_intent(data: dict) -> Intent:
 
     validated_data: Intent = data  # type: ignore
     return validated_data
+
+
+def _apply_cinema_defaults(intent: dict) -> dict:
+    has_cinemas = bool(intent.get("cinemas"))
+    has_date = bool(intent.get("date_expression"))
+    has_film = bool(intent.get("film_mention"))
+
+    # edge case: no params at all -> leave cinemas empty
+    if not has_cinemas and not has_date and not has_film:
+        return intent
+
+    # otherwise: empty cinemas means "all cinemas"
+    if not has_cinemas:
+        intent["cinemas"] = [c.value for c in CinemaName]
+
+    return intent
 
 
 def parse_intent(
@@ -61,6 +76,8 @@ def parse_intent(
     )
 
     pre_validated_data: dict = json.loads(resp.choices[0].message.content)  # type: ignore
+    pre_validated_data = _apply_cinema_defaults(pre_validated_data)
+
     data: Intent = validate_intent(pre_validated_data)
 
     return data

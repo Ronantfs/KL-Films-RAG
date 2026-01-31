@@ -9,13 +9,13 @@ from typing import List, TypedDict, Optional
 # # # # # # # # # # # # # # # # # # # # # # # # # # #
 class QueryDetails(TypedDict):
     raw_query: str
-    cinemas: Optional[list[CinemaName]]
-    dates: Optional[list[str]]
+    cinemas: list[CinemaName]
+    dates: list[str]
     matched_film_title: Optional[str]
     raw_user_film_title: Optional[str]
 
 
 class Intent(TypedDict):
-    cinemas: Optional[List[str]]
-    date_expression: Optional[str]
-    film_mention: Optional[str]
+    cinemas: List[CinemaName]
+    date_expression: str
+    film_mention: str

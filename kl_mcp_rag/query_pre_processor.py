@@ -36,18 +36,13 @@ def extract_query_details(query: str) -> QueryDetails:
     ]
 
     intent: Intent = parse_intent(parse_intent_version, client, query)
-    # TODO: add error handling
 
     # enforced: [yyyy-mm-dd, ...]
-    dates: list[str] = parse_dates(intent["date_expression"])
-
-    index = FilmIndex(embed_fn=openai_embed)
-
-    film_title = (
-        resolve_film_title(intent["film_mention"], index)
-        if intent.get("film_mention")
-        else None
+    dates: list[str] = (
+        parse_dates(intent["date_expression"]) if intent.get("date_expression") else []
     )
+
+    film_title = resolve_film_title(intent["film_mention"], FilmIndex(embed_fn=openai_embed)) if intent.get("film_mention") else None  # type: ignore
 
     # Hand-off object to MCP for tool execution
     processed_details: QueryDetails = {

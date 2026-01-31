@@ -43,7 +43,7 @@
       },
       "args": [
         "--user-query",
-        "what's showing on 18th Jan?",
+        "Hamnet",
         "--raw-listings-path",
         "raw_listings_v1.json"
       ],

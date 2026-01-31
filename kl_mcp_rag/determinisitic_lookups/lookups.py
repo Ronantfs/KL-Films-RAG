@@ -199,10 +199,12 @@ def get_cinemas_for_film_and_dates(
 
 # ___
 def handle_no_params_from_user() -> Any:
-    return {"message": "Ask about films, cinemas, or dates to see Kinologue Listings."}
+    return {
+        "message": "Sorry, I need a little more info please! Ask about films, cinemas, or dates to see Kinologue Listings."
+    }
 
 
 ########################################################
 # ---- pre-routing validation ----
 def handle_requested_film_not_on(raw_film: str) -> str:
-    return f'"{raw_film}" is not screening anywhere'
+    return f'"{raw_film}" is not screening anywhere on any dates'

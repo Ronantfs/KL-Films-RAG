@@ -17,9 +17,7 @@ Valid cinemas in my data:
 
 Guidance:
 CINEMAS LIST:
-- If it ambiguous which cinema is being refered to, but one is clearly being mentioned, assume query means all cinemas that are valid in my data,
-   cinemas field should then be returned as an arry with all valiid cinema names")
-- The query might also not mention any Cinema at all, in which case return empty array for cinemas.
+- If it ambiguous which cinema is being refered to, or query does not not mention any Cinema at all, cinemas field should then be returned as an empty array. 
 
 DATE EXPRESSION:
 - If no date expression is mentioned, return emtpy string for date_expression.
@@ -28,7 +26,7 @@ DATE EXPRESSION:
 Examples: 
 Query: "Is Star Wars showing at a cinema next weekend?"
 {{
-  "cinemas": ["barbican","bfi_southbank","castle", "nickel", "close_up","cine_lumiere","the_cinema_museum","garden_cinema","rio","ica"],
+  "cinemas": [],
   "date_expression": "next weekend",
   "film_mention": "Star Wars"
 }}
@@ -41,16 +39,19 @@ FILM MENTION:
 - Do NOT treat generic words or phrases such as "anything", "anything good", "something", or "anything showing" as film names.
 - If no specific film title is mentioned, return an empty string for film_mention.
 """
-E1_4_5_11 = """
-CINEMAS DEFAULT RULE:
-- If it is not clear what cienma(s) are specifed by query or no cinema is mentioned,
-assume the user is asking about all cineams, and return all valid cinema names in the cinemas list.
-"""
+
+# REMOVED SO CAN HANDLE NO PARAMS SPECFIED AT ALL !
+
+# E1_4_5_11 = """
+# CINEMAS DEFAULT RULE:
+# - If it is not clear what cienma(s) are specifed by query or no cinema is mentioned,
+# assume the user is asking about all cineams, and return all valid cinema names in the cinemas list.
+
 E1_15 = """
 MULTIPLE FILMS:
 - If more than one film title is mentioned:return as single comma seperated string with no conmjections (e.g. "Film A, Film B").
 """
-V2_0 = V1_0 + E1_3_8_14 + E1_4_5_11 + E1_15
+V2_0 = V1_0 + E1_3_8_14 + E1_15
 
 
 class PromptVersions(str, Enum):
