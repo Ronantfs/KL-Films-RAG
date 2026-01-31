@@ -92,11 +92,6 @@ def cli_entrypoint():
     )
 
 
-import json
-import os
-import asyncio
-
-
 def lambda_handler(event, context):
     # --- Handle CORS preflight (browser OPTIONS request)
     if event.get("requestContext", {}).get("http", {}).get("method") == "OPTIONS":

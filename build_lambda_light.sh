@@ -32,7 +32,7 @@ python3 - << 'EOF'
 import zipfile, os
 
 zip_path = "lambda_bundle_v2.zip"
-base_dir = "lambda_build"
+base_dir = "lambda_build_v2"
 
 with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
     for root, _, files in os.walk(base_dir):
