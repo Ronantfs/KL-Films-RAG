@@ -11,6 +11,10 @@ __pycache__/
 build/
 lambda_build/
 lambda_bundle.zip
+*lambda_build_v2
+*lambda_build_v2/
+*lambda_bundle_v2/
+lambda_bundle_v2.zip
 develop-eggs/
 dist/
 downloads/

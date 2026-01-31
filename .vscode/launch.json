@@ -45,7 +45,7 @@
         "--user-query",
         "what's showing on 18th Jan?",
         "--raw-listings-path",
-        " vs"
+        "raw_listings_v1.json"
       ],
       "console": "integratedTerminal",
       "justMyCode": true
