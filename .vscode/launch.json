@@ -33,7 +33,23 @@
       "justMyCode": true
     },
     {
-      "name": "Debug Pipeline (HARD CODE)",
+      "name": "Debug System (s3 listings)",
+      "type": "python",
+      "request": "launch",
+      "module": "kl_mcp_rag.pipeline_handler",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      },
+      "args": [
+        "--user-query",
+        "king of new york",
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Debug System - local listings",
       "type": "python",
       "request": "launch",
       "module": "kl_mcp_rag.pipeline_handler",
@@ -44,24 +60,6 @@
       "args": [
         "--user-query",
         "Hamnet",
-        "--raw-listings-path",
-        "raw_listings_v1.json"
-      ],
-      "console": "integratedTerminal",
-      "justMyCode": true
-    },
-    {
-      "name": "Debug Pipeline",
-      "type": "python",
-      "request": "launch",
-      "module": "kl_mcp_rag.pipeline_handler",
-      "cwd": "${workspaceFolder}",
-      "env": {
-        "PYTHONPATH": "${workspaceFolder}"
-      },
-      "args": [
-        "--user-query",
-        "${input:userQuery}",
         "--raw-listings-path",
         "raw_listings_v1.json"
       ],
@@ -82,6 +80,24 @@
       "program": "${workspaceFolder}/lambda_deploy.py",
       "console": "integratedTerminal",
       "justMyCode": true
+    },
+    {
+      "name": "Build Film Index (S3)",
+      "type": "python",
+      "request": "launch",
+      "module": "kl_mcp_rag.rag.build_index",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Build Film Index (Local JSON)",
+      "type": "python",
+      "request": "launch",
+      "module": "kl_mcp_rag.rag.build_index",
+      "args": [
+        "--raw-path",
+        "raw_listings_v1.json"
+      ],
+      "console": "integratedTerminal"
     }
   ]
 }

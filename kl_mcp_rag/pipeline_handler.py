@@ -3,7 +3,9 @@ import argparse
 import os
 import json
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
+
+import boto3
 
 from kl_mcp_rag.constants_and_types.listings import RawCinemaFilms
 from kl_mcp_rag.constants_and_types.pipeline import QueryDetails
@@ -21,15 +23,27 @@ V1_TEST_RAW_LISTINGS_PATH = BASE_DIR / "data" / "raw_listings_v1.json"
 RAW_LISTINGS_PATH = BASE_DIR / "data" / "raw_listings_v1.json"
 
 
-def resolve_raw_listings_file(filename: str) -> Path:
+def _get_s3_client():
+    AWS_REGION = "eu-north-1"
+    AWS_PROFILE = "ronantfs"
+    # AWS Lambda sets this automatically
+    if os.environ.get("AWS_LAMBDA_FUNCTION_NAME"):
+        return boto3.client("s3", region_name=AWS_REGION)
+    else:
+        session = boto3.Session(
+            profile_name=AWS_PROFILE,
+            region_name=AWS_REGION,
+        )
+        return session.client("s3")
+
+
+def _resolve_raw_listings_path(filename: str) -> Path:
     """
     Resolve a raw listings filename to an absolute path.
 
     Expectation:
-    - filename ONLY (e.g. 'v1_test_raw_listings.json')
+    - filename ONLY (e.g. 'raw_listings_v1.json')
     - file must exist in kl_mcp_rag/data/
-
-    Raises early and loudly if the contract is violated.
     """
     if "/" in filename or "\\" in filename:
         raise ValueError(f"Expected filename only, got path-like value: {filename}")
@@ -42,14 +56,31 @@ def resolve_raw_listings_file(filename: str) -> Path:
     return path
 
 
-def _load_raw_listings(path: Path) -> Any:
+def _load_raw_listings(path: Optional[Path]) -> Any:
+
+    # No path: load from live s3 data
+    if path is None:
+        s3_client = _get_s3_client()
+        raw_listings_bucket = "filmfynder"
+        raw_listings_key = "london/cinema-listings/all/active_listings.json"
+        print("LOADING PROD RAW LISTINGS FROM S3")
+        prod_raw_listings_obj = s3_client.get_object(
+            Bucket=raw_listings_bucket, Key=raw_listings_key
+        )
+        prod_raw_listings_json = json.loads(
+            prod_raw_listings_obj["Body"].read().decode("utf-8")
+        )
+
+        return prod_raw_listings_json
+
+    # Load from provided path
     with path.open("r") as f:
         return json.load(f)
 
 
 async def handle_user_query(
     user_query: str,
-    raw_listings_path: Path,
+    raw_listings_path: Optional[Path] = None,
 ) -> Any:
     """
     Orchestrates the full query execution flow.
@@ -77,13 +108,17 @@ async def handle_user_query(
 def _parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--user-query", required=True)  # injected query text
-    parser.add_argument("--raw-listings-path", required=True)  # injected json path
+    parser.add_argument("--raw-listings-path", required=False)  # injected json path
     return parser.parse_args()
 
 
 def cli_entrypoint():
     args = _parse_args()
-    raw_path = resolve_raw_listings_file(args.raw_listings_path)
+    raw_path = (
+        _resolve_raw_listings_path(args.raw_listings_path)
+        if args.raw_listings_path
+        else None
+    )
     asyncio.run(
         handle_user_query(
             user_query=args.user_query,
@@ -113,7 +148,7 @@ def lambda_handler(event, context):
         body.get("raw_listings_path") or os.environ["RAW_LISTINGS_PATH"]
     )  # fallback to env
 
-    raw_path = resolve_raw_listings_file(filename)
+    raw_path = _resolve_raw_listings_path(filename)
 
     # --- Run async domain logic
     result = asyncio.run(
