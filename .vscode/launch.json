@@ -67,6 +67,21 @@
       ],
       "console": "integratedTerminal",
       "justMyCode": true
+    },
+    {
+      "name": "BUILD (λ)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "./build_lambda_light.sh",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "DEPLOY (λ)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/lambda_deploy.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
     }
   ]
 }
