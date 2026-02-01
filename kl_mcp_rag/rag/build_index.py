@@ -90,7 +90,12 @@ def film_to_embedding_text(title: str) -> str:
 
 
 def extract_unique_film_titles(raw: RawCinemaFilms) -> set[str]:
-    return {title for films_by_title in raw.values() for title in films_by_title.keys()}
+    return {
+        str(title).upper()
+        for films_by_title in raw.values()
+        for title in films_by_title.keys()
+        if title is not None
+    }
 
 
 # add a handler so we can control the building of vector store so can run updates

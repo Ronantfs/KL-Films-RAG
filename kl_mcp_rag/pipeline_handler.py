@@ -140,13 +140,13 @@ def lambda_handler(event, context):
             "body": "",
         }
 
+    print("Received event:", event)
     # --- Parse JSON body sent by Lambda URL
     body = json.loads(event.get("body", "{}"))  # Lambda URL sends body as string
 
-    user_query = body.get("user_query") or os.environ["USER_QUERY"]  # fallback to env
-    filename = (
-        body.get("raw_listings_path") or os.environ["RAW_LISTINGS_PATH"]
-    )  # fallback to env
+    print("Received body:", body)
+    user_query = body.get("user_query")
+    filename = body.get("raw_listings_path")  # fallback to env
 
     raw_path = _resolve_raw_listings_path(filename)
 

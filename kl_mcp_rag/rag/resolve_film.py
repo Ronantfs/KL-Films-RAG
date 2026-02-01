@@ -14,7 +14,7 @@ INDEX_BASE_PATH = DATA_DIR / "films"  # films.npz + films.json
 npz_path = INDEX_BASE_PATH.with_suffix(".npz")
 json_path = INDEX_BASE_PATH.with_suffix(".json")
 # TODO: investigate calibration of threshold
-THRESHOLD = 0.80
+THRESHOLD = 0.70
 
 
 def resolve_film_title(raw_text: str, index: FilmIndex) -> str | None:
@@ -23,7 +23,7 @@ def resolve_film_title(raw_text: str, index: FilmIndex) -> str | None:
 
     index.load_data(INDEX_BASE_PATH)
 
-    score, meta = index.search(raw_text, k=1)[0]
+    score, meta = index.search(raw_text.upper(), k=1)[0]
     return meta["title"] if score >= THRESHOLD else None
 
 
