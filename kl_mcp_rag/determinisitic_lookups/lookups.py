@@ -30,7 +30,11 @@ def get_specific_showtimes(
 
     for cinema in cinemas:
         cinema_films: CinemaListings = raw_listings.get(cinema, {})
-        film_details: Optional[FilmDetails] = cinema_films.get(film)
+        cinema_films_case_insensitive = {k.lower(): v for k, v in cinema_films.items()}
+
+        film_details: Optional[FilmDetails] = cinema_films_case_insensitive.get(
+            film.lower()
+        )
 
         if not film_details:  # film not at this cinema on any date
             continue
@@ -107,7 +111,12 @@ def get_dates_for_film_at_cinema(
 
     for cinema in cinemas:
         cinema_films: CinemaListings = raw_listings.get(cinema, {})
-        film_details: Optional[FilmDetails] = cinema_films.get(film)
+
+        cinema_films_case_insensitive = {k.lower(): v for k, v in cinema_films.items()}
+
+        film_details: Optional[FilmDetails] = cinema_films_case_insensitive.get(
+            film.lower()
+        )
 
         if not film_details:
             continue
@@ -173,7 +182,13 @@ def get_cinemas_for_film_and_dates(
         cinemas_playing: list[str] = []
 
         for cinema, cinema_films in raw_listings.items():
-            film_details: Optional[FilmDetails] = cinema_films.get(film)
+            cinema_films_case_insensitive = {
+                k.lower(): v for k, v in cinema_films.items()
+            }
+
+            film_details: Optional[FilmDetails] = cinema_films_case_insensitive.get(
+                film.lower()
+            )
 
             if not film_details:
                 continue
@@ -191,6 +206,7 @@ def get_cinemas_for_film_and_dates(
         else:
             lines.append(f"On {date}, {film} is not playing at any listed cinema.")
         lines.append("-- -- -- -- -- ")
+
     if not lines:
         return f"No listings found for {film} on the requested dates."
 
