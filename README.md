@@ -12,9 +12,14 @@ The film names are matched using RAG against a vector database of the embbeded l
 
 Depending on which query params we extract from the users query, we call a suitable determinstic look up function, and formatted string is retunred to the UI client. 
 
+
+
+
 ## Codebase: 
 The handler can be found at kl_mcp_rag/pipeline_handler.py
 See the contents of kl_mcp_rag/rag for the code related to the RAG part of the syste, particualrly the FilmIndex class in kl_mcp_rag/rag/index.py
+
+I have also kept a chronological set of decision logs in desgin_decision_logs folder -- hopefully this makes clear what I was thinking as I went along. 
 
 ----
 
